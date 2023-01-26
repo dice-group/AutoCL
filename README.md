@@ -1,32 +1,108 @@
-# AutoCL
-AutoCL: AutoML for Concept Learning
+# Ontolearn
 
-Abstract:
-Node classification in Knowledge Graphs (KGs)
-aids in the discovery of new drugs, the identifi-
-cation of risky users in social networks, and the
-completion of missing type information in KGs.
-As many stakeholders in these applications need
-to understand the models’ predictions, concept
-learners have been proposed to learn concepts
-in description logics from positive and negative
-nodes in knowledge graphs. However, as dataset
-sizes increase, so does the computational time to
-learn concetps, and data scientists need to spend
-a lot of time finetuning hyperparameters. While
-many AutoML approaches have been proposed
-to simplify the datascience process for tabular
-data, none of these approaches is directly appli-
-cable to graph data. In this paper, we propose
-AutoCL—an AutoML approach that is tailored
-to knowledge graphs and concept learning. It
-provides methods for automatic feature selection
-in knowledge graphs and hyperparameter opti-
-mization of concept learners. We demonstrate
-its effectiveness with SML-Bench, a benchmark-
-ing framework for structured machine learning.
-Our feature selection improves the runtime of con-
-cept learners while maintaining predictive perfor-
-mance in terms of F1-measure and accuracy and
-our hyperparameter optimization leads to better
-predictive performance on many dataset
+Ontolearn is an open-source software library for explainable structured machine learning in Python.
+
+- [Installation](#installation)
+
+# Installation
+
+### Installation from source
+
+```shell
+git clone https://github.com/dice-group/Ontolearn.git
+cd Ontolearn
+conda create --name temp python=3.8
+conda activate temp
+conda env update --name temp
+python -c 'from setuptools import setup; setup()' develop
+python -c "import ontolearn"
+python -m pytest tests # Partial test with pytest
+tox  # full test with tox
+```
+
+### Installation via pip
+
+```shell
+pip install ontolearn  # currently it is only a place holder https://pypi.org/project/ontolearn/
+```
+## Usage
+See the [manual](https://ontolearn-docs-dice-group.netlify.app/),
+tests and examples folder for details.
+
+```python
+from ontolearn.concept_learner import CELOE
+from ontolearn.model_adapter import ModelAdapter
+from owlapy.model import OWLNamedIndividual, IRI
+from owlapy.namespaces import Namespaces
+from owlapy.render import DLSyntaxObjectRenderer
+from examples.experiments_standard import ClosedWorld_ReasonerFactory
+
+NS = Namespaces('ex', 'http://example.com/father#')
+
+positive_examples = {OWLNamedIndividual(IRI.create(NS, 'stefan')),
+                     OWLNamedIndividual(IRI.create(NS, 'markus')),
+                     OWLNamedIndividual(IRI.create(NS, 'martin'))}
+negative_examples = {OWLNamedIndividual(IRI.create(NS, 'heinz')),
+                     OWLNamedIndividual(IRI.create(NS, 'anna')),
+                     OWLNamedIndividual(IRI.create(NS, 'michelle'))}
+
+# Only the class of the learning algorithm is specified
+model = ModelAdapter(learner_type=CELOE,
+                     reasoner_factory=ClosedWorld_ReasonerFactory,
+                     path="KGs/father.owl")
+
+model.fit(pos=positive_examples,
+          neg=negative_examples)
+
+dlsr = DLSyntaxObjectRenderer()
+
+for desc in model.best_hypotheses(1):
+    print('The result:', dlsr.render(desc.concept), 'has quality', desc.quality)
+```
+### Download external files (.link files)
+
+Some resources like pre-calculated embeddings or `pre_trained_agents`
+are not included in the Git repository directly. Use the following
+command to download them from our data server.
+
+```shell
+./big_gitext/download_big.sh examples/pre_trained_agents.zip.link
+./big_gitext/download_big.sh -A  # to download them all into examples folder
+```
+
+To update or upload resource files, follow the instructions
+[here](https://github.com/dice-group/Ontolearn-internal/wiki/Upload-big-data-to-hobbitdata)
+and use the following command.
+
+```shell
+./big_gitext/upload_big.sh pre_trained_agents.zip
+```
+
+### Building (sdist and bdist_wheel)
+
+```shell
+tox -e build
+```
+
+#### Building the docs
+
+```shell
+tox -e docs
+```
+
+
+
+
+## Contribution
+Feel free to create a pull request
+
+### Simple Linting
+
+Run
+```shell
+tox -e lint --
+```
+
+This will run [flake8](https://flake8.pycqa.org/) on the source code.
+
+For any further questions, please contact:  ```onto-learn@lists.uni-paderborn.de```
