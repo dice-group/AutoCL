@@ -1,0 +1,3 @@
+F1 Score 1.0
+Accuracy 1.0
+Time Taken 3.262434244155884
