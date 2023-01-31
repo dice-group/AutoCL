@@ -20,50 +20,7 @@ python -m pytest tests # Partial test with pytest
 tox  # full test with tox
 
 ```
-### Download external files (.link files)
-
-Some resources like pre-calculated embeddings or `pre_trained_agents`
-are not included in the Git repository directly. Use the following
-command to download them from our data server.
-
-```shell
-./big_gitext/download_big.sh examples/pre_trained_agents.zip.link
-./big_gitext/download_big.sh -A  # to download them all into examples folder
-```
-
-To update or upload resource files, follow the instructions
-[here](https://github.com/dice-group/Ontolearn-internal/wiki/Upload-big-data-to-hobbitdata)
-and use the following command.
-
-```shell
-./big_gitext/upload_big.sh pre_trained_agents.zip
-```
-
-### Building (sdist and bdist_wheel)
-
-```shell
-tox -e build
-```
-
-#### Building the docs
-
-```shell
-tox -e docs
-```
+### Dataset
+Our Dataset from SML-Bench (Structured Machine Learning Benchmark) is a benchmark for machine learning from structured data. It provides datasets, which contain structured knowledge (beyond plain feature vectors) in languages such as the Web Ontology Language (OWL) or the logic programming language Prolog. 
 
 
-
-
-## Contribution
-Feel free to create a pull request
-
-### Simple Linting
-
-Run
-```shell
-tox -e lint --
-```
-
-This will run [flake8](https://flake8.pycqa.org/) on the source code.
-
-For any further questions, please contact:  ```onto-learn@lists.uni-paderborn.de```
