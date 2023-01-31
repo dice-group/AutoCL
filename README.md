@@ -12,7 +12,7 @@ AutoCL is one AutoML pipeline for concept learning including feature selection a
 
 ```shell
 git clone https://github.com/dice-group/Ontolearn.git](https://github.com/AutoCL2023/AutoCL.git
-cd intolearn
+cd ontolearn
 conda create --name temp python=3.8
 conda activate temp
 conda env update --name temp
