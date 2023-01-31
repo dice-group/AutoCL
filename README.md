@@ -1,16 +1,16 @@
-# Ontolearn
+# AutoCL
 
-Ontolearn is an open-source software library for explainable structured machine learning in Python.
+AutoCL is one AutoML pipeline for concept learning including feature selection and hyperaparameter optimization
 
 - [Installation](#installation)
 
 # Installation
 
-### Installation from source
+### Installation AutoCL from source
 
 ```shell
-git clone https://github.com/dice-group/Ontolearn.git
-cd Ontolearn
+git clone https://github.com/dice-group/Ontolearn.git](https://github.com/AutoCL2023/AutoCL.git
+cd intolearn
 conda create --name temp python=3.8
 conda activate temp
 conda env update --name temp
@@ -18,46 +18,7 @@ python -c 'from setuptools import setup; setup()' develop
 python -c "import ontolearn"
 python -m pytest tests # Partial test with pytest
 tox  # full test with tox
-```
 
-### Installation via pip
-
-```shell
-pip install ontolearn  # currently it is only a place holder https://pypi.org/project/ontolearn/
-```
-## Usage
-See the [manual](https://ontolearn-docs-dice-group.netlify.app/),
-tests and examples folder for details.
-
-```python
-from ontolearn.concept_learner import CELOE
-from ontolearn.model_adapter import ModelAdapter
-from owlapy.model import OWLNamedIndividual, IRI
-from owlapy.namespaces import Namespaces
-from owlapy.render import DLSyntaxObjectRenderer
-from examples.experiments_standard import ClosedWorld_ReasonerFactory
-
-NS = Namespaces('ex', 'http://example.com/father#')
-
-positive_examples = {OWLNamedIndividual(IRI.create(NS, 'stefan')),
-                     OWLNamedIndividual(IRI.create(NS, 'markus')),
-                     OWLNamedIndividual(IRI.create(NS, 'martin'))}
-negative_examples = {OWLNamedIndividual(IRI.create(NS, 'heinz')),
-                     OWLNamedIndividual(IRI.create(NS, 'anna')),
-                     OWLNamedIndividual(IRI.create(NS, 'michelle'))}
-
-# Only the class of the learning algorithm is specified
-model = ModelAdapter(learner_type=CELOE,
-                     reasoner_factory=ClosedWorld_ReasonerFactory,
-                     path="KGs/father.owl")
-
-model.fit(pos=positive_examples,
-          neg=negative_examples)
-
-dlsr = DLSyntaxObjectRenderer()
-
-for desc in model.best_hypotheses(1):
-    print('The result:', dlsr.render(desc.concept), 'has quality', desc.quality)
 ```
 ### Download external files (.link files)
 
