@@ -1,7 +1,7 @@
 # AutoCL
 
 AutoCL is one AutoML pipeline for concept learning including feature selection and hyperaparameter optimization
-<img width="741" alt="Auto Concept Learner" src="https://user-images.githubusercontent.com/123487952/215786085-857f8bd5-bcaf-4f69-b7e7-bd9055980dce.png">
+<img width="700" alt="Auto Concept Learner" src="https://user-images.githubusercontent.com/123487952/215786085-857f8bd5-bcaf-4f69-b7e7-bd9055980dce.png">
 
 
 - [Installation](#installation)
