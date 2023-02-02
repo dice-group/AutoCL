@@ -178,7 +178,7 @@ def iterate_object_properties(properties, pos, neg):
     return df_transposed
 
 
-def transform_object_properties(obj_prop, pos, neg):
+def transform_object_properties(onto, pos, neg):
     '''
     Read Object properties and call
     iterate properties to convert to tabular form
