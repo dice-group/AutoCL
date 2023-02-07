@@ -34,14 +34,14 @@ Our Dataset from SML-Bench (Structured Machine Learning Benchmark) is a benchmar
 ### Hyperparameter Optimization(HPO)
 We proposed one approach for hyperparameter optimization of concept learners based one TPE sampler from Optuna framework.
 Our HPO source code shown in optuna_random_sampler.py from examples folder.
-We ran TPE sampler via get_best_optimization_result_for_tpe_sampler funtion in order to obtain the best hyperparameters of our concepet learner.
+We ran TPE sampler via get_best_optimization_result_for_tpe_sampler function in order to obtain the best hyperparameters of our concepet learner.
 
 
 ### Feature Selection
 We provides methods for automatic feature selection in knowledge graphs.
 Our Feature Selection source code shown in evolearner_feature_selection.py from examples folder.
-The raw data was saved in the KGs,we employeed OwlReady2 to extra the features from KGs. Funtions get_data_properties, get_object_properties are used to get DatatypeProperty features and ObjectProperty features.
-We apply calc_variance_threshold funtion to variance-filtered data, select_k_best_features funtion used to search the best features.
+The raw data was saved in the KGs,we employeed OwlReady2 to extra the features from KGs. Functions get_data_properties, get_object_properties are used to get DatatypeProperty features and ObjectProperty features.Then transform_data_properties and transform_object_properties are used to covert the features into tabular format.
+Finaly, variance-filtered data via calc_variance_threshold function, search the best features from select_k_best_features function.
 
 
 
