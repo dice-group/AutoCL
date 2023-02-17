@@ -1,0 +1,53 @@
+2022-10-24 01:26:47,664 - ontolearn.abstracts:293 - INFO - Number of named classes: 18
+Number of individuals: 202
+Number of properties: 4
+2022-10-24 01:26:47,674 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:47,675 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:47,940 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.2151 seconds
+2022-10-24 01:26:47,941 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 85
+2022-10-24 01:26:47,942 - ontolearn.base_concept_learner:140 - INFO - A goal concept found: <class 'ontolearn.search.EvoLearnerNode'> at 0xee12ed1	Father ⊓ (∃ hasChild.Grandparent) ⊓ Grandparent	Quality:1.0	Length:7	Tree Length:6	Tree Depth:3	|Indv.|:17
+2022-10-24 01:26:47,990 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:47,992 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:48,071 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.0473 seconds
+2022-10-24 01:26:48,072 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 124
+2022-10-24 01:26:48,073 - ontolearn.base_concept_learner:140 - INFO - A goal concept found: <class 'ontolearn.search.EvoLearnerNode'> at 0xcf85445	Grandfather ⊓ (∃ hasChild.(∃ hasChild.(∃ married.Parent))) ⊓ (∃ married.Person)	Quality:1.0	Length:13	Tree Length:9	Tree Depth:5	|Indv.|:17
+2022-10-24 01:26:48,113 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:48,114 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:48,993 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.8184 seconds
+2022-10-24 01:26:48,994 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 570
+2022-10-24 01:26:48,996 - ontolearn.base_concept_learner:140 - INFO - Current best concept: <class 'ontolearn.search.EvoLearnerNode'> at 0xee15990	∃ hasChild.Grandparent	Quality:0.92308	Length:3	Tree Length:2	Tree Depth:1	|Indv.|:34
+2022-10-24 01:26:49,033 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:49,035 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:49,231 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.1755 seconds
+2022-10-24 01:26:49,233 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 113
+2022-10-24 01:26:49,234 - ontolearn.base_concept_learner:140 - INFO - Current best concept: <class 'ontolearn.search.EvoLearnerNode'> at 0xcfa1bef	Grandfather ⊓ Grandfather	Quality:0.92308	Length:3	Tree Length:3	Tree Depth:1	|Indv.|:35
+2022-10-24 01:26:49,277 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:49,279 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:49,307 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.0103 seconds
+2022-10-24 01:26:49,308 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 19
+2022-10-24 01:26:49,309 - ontolearn.base_concept_learner:140 - INFO - A goal concept found: <class 'ontolearn.search.EvoLearnerNode'> at 0xcfa12cc	Grandfather ⊓ (∃ married.(∃ hasChild.Grandparent))	Quality:1.0	Length:7	Tree Length:5	Tree Depth:3	|Indv.|:17
+2022-10-24 01:26:49,355 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:49,356 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:49,516 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.1408 seconds
+2022-10-24 01:26:49,517 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 122
+2022-10-24 01:26:49,517 - ontolearn.base_concept_learner:140 - INFO - Current best concept: <class 'ontolearn.search.EvoLearnerNode'> at 0xcf95140	Grandfather ⊓ Grandfather	Quality:0.92308	Length:3	Tree Length:3	Tree Depth:1	|Indv.|:35
+2022-10-24 01:26:49,554 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:49,555 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:49,578 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.008 seconds
+2022-10-24 01:26:49,579 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 18
+2022-10-24 01:26:49,580 - ontolearn.base_concept_learner:140 - INFO - A goal concept found: <class 'ontolearn.search.EvoLearnerNode'> at 0xcfa403b	Father ⊓ (∃ hasChild.Grandparent) ⊓ Father	Quality:1.0	Length:7	Tree Length:6	Tree Depth:3	|Indv.|:17
+2022-10-24 01:26:49,619 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:49,620 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:49,743 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.1052 seconds
+2022-10-24 01:26:49,744 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 131
+2022-10-24 01:26:49,745 - ontolearn.base_concept_learner:140 - INFO - Current best concept: <class 'ontolearn.search.EvoLearnerNode'> at 0xcf957a4	Grandfather ⊓ Grandfather	Quality:0.92308	Length:3	Tree Length:3	Tree Depth:1	|Indv.|:35
+2022-10-24 01:26:49,780 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:49,781 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:49,974 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.1798 seconds
+2022-10-24 01:26:49,975 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 113
+2022-10-24 01:26:49,977 - ontolearn.base_concept_learner:140 - INFO - Current best concept: <class 'ontolearn.search.EvoLearnerNode'> at 0xcfdaa90	Grandfather ⊓ Grandfather	Quality:0.92308	Length:3	Tree Length:3	Tree Depth:1	|Indv.|:35
+2022-10-24 01:26:50,031 - ontolearn.knowledge_base:383 - INFO - E^+:[ F3M40, F7M102, F3M45, F10M171, F9M142, F7M122, F3M43, F6M92, F9M139, F8M132, F2M9, F2M29, F5M60 ]
+2022-10-24 01:26:50,033 - ontolearn.knowledge_base:384 - INFO - E^-:[ F2F17, F7F106, F9F169, F8M134, F10M173, F7F105, F7F129, F6M81, F7M120, F10M182, F9F168, F7M109, F10M190 ]
+2022-10-24 01:26:50,162 - ontolearn.base_concept_learner:134 - INFO - Elapsed runtime: 0.1096 seconds
+2022-10-24 01:26:50,163 - ontolearn.base_concept_learner:135 - INFO - Number of concepts tested: 110
+2022-10-24 01:26:50,164 - ontolearn.base_concept_learner:140 - INFO - Current best concept: <class 'ontolearn.search.EvoLearnerNode'> at 0xd092e54	Grandfather ⊓ Grandfather	Quality:0.92308	Length:3	Tree Length:3	Tree Depth:1	|Indv.|:35
