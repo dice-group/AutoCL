@@ -1,0 +1,3 @@
+target,tournament_size,card_limit,population_size,num_generations,height_limit,acc,F1-score
+Grandgrandfather,10,10,10,10,10,True,True
+Grandgrandfather,10,10,10,10,10,1.0,1.0
