@@ -1,5 +1,0 @@
-2022-10-10 02:12:49,638 - ontolearn.abstracts:293 - INFO - Number of named classes: 18
-Number of individuals: 202
-Number of properties: 4
-2022-10-10 02:12:49,641 - ontolearn.knowledge_base:216 - INFO - Concepts to ignore: Grandson Mother Daughter Grandmother Grandparent Granddaughter Brother Parent PersonWithASibling Son Sister Father Grandchild Grandfather Child
-2022-10-10 02:12:49,645 - ontolearn.knowledge_base:216 - INFO - Concepts to ignore: Grandson Mother Daughter Grandmother Grandparent Granddaughter Brother Parent PersonWithASibling Son Sister Father Grandchild Grandfather Child

@@ -1,6 +1,0 @@
-2022-10-06 00:27:43,759 - ontolearn.abstracts:293 - INFO - Number of named classes: 18
-Number of individuals: 202
-Number of properties: 4
-2022-10-06 00:27:43,764 - ontolearn.knowledge_base:216 - INFO - Concepts to ignore: Brother Mother Grandson Grandchild Father Child Daughter Parent Sister Granddaughter Grandfather Son Grandmother Grandparent PersonWithASibling
-2022-10-06 00:27:43,768 - ontolearn.knowledge_base:383 - INFO - E^+:[ F6F96, F6F101, F7F114, F10F179, F3F52, F9F154, F6F84, F10F195, F3F53, F9F143, F10F181, F6F72, F9F160, F2F19, F7F119, F9F163, F6F93, F9F141, F10F193, F9F150, F2F26, F6F86, F9F168, F2F36, F10F186, F9F148, F2F28, F5F62, F2F14, F6F79, F10F192, F7F121 ]
-2022-10-06 00:27:43,768 - ontolearn.knowledge_base:384 - INFO - E^-:[ F9F145, F10M199, F9M142, F9M146, F3F48, F4M59, F5F65, F7F118, F7F129, F7F111, F6F97, F10F200, F10F189, F6M100, F9M170, F2M37, F7M104, F9F169, F9F156, F7M131, F4M57, F7M107, F8F135, F2F10, F9F164, F10M188, F6M81, F2F22, F6M99, F5M66, F6M71, F4F55 ]
