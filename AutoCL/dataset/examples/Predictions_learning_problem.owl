@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://dice-research.org/predictions/1666710731.1067379"
+         xmlns="https://dice-research.org/predictions/1666710731.1067379#">
+
+<owl:Ontology rdf:about="https://dice-research.org/predictions/1666710731.1067379">
+  <owl:imports rdf:resource="http://dl-learner.org/mammographic"/>
+</owl:Ontology>
+
+<owl:AnnotationProperty rdf:about="#accuracy"/>
+
+<owl:Class rdf:about="#Pred_0">
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://dl-learner.org/mammographic#hasBiRads"/>
+      <owl:someValuesFrom>
+        <rdfs:Datatype>
+          <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+          <owl:withRestrictions>
+            <rdf:Description>
+              <rdf:first>
+                <rdf:Description>
+                  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</xsd:minInclusive>
+                </rdf:Description>
+              </rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+          </owl:withRestrictions>
+        </rdfs:Datatype>
+      </owl:someValuesFrom>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <accuracy rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.81641</accuracy>
+</owl:Class>
+
+
+</rdf:RDF>
