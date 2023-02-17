@@ -21,6 +21,8 @@ conda install -c conda-forge optuna=3.0.3
 conda install -c conda-forge owlready2=0.39
 conda install scikit-learn=1.0.2
 conda env update --name temp
+python -c 'from setuptools import setup; setup()' develop
+python -c "import ontolearn"
 ```
 ### Dataset
 Our Dataset from SML-Bench (Structured Machine Learning Benchmark) is a benchmark for machine learning from structured data. It provides datasets, which contain structured knowledge (beyond plain feature vectors) in languages such as the Web Ontology Language (OWL) or the logic programming language Prolog. 
