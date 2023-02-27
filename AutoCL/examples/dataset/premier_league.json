@@ -1,5 +1,5 @@
 {
-    "data_path": "../KGs/PremierLeague/premierleague.owl",
+    "data_path": "AutoCL/KGs/PremierLeague/premierleague.owl",
     "problems": {
         "lp_1": {
         "positive_examples":
