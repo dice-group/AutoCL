@@ -1,5 +1,5 @@
 {
-    "data_path": "../KGs/Mutagenesis/mutagenesis.owl",
+    "data_path": "AutoCL/KGs/Mutagenesis/mutagenesis.owl",
     "problems": {
         "lp_4": {
         "positive_examples":
