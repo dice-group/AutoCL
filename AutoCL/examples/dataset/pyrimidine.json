@@ -1,5 +1,5 @@
 {
-    "data_path": "../KGs/Pyrimidine/pyrimidine.owl",
+    "data_path": "AutoCL/KGs/Pyrimidine/pyrimidine.owl",
     "problems": {
         "lp_1": {
         "positive_examples":
