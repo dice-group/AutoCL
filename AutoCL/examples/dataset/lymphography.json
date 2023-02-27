@@ -1,5 +1,5 @@
 {
-    "data_path": "KGs/Lymphography/lymphography.owl",
+    "data_path": "AutoCL/KGs/Lymphography/lymphography.owl",
     "problems": {
         "lp_1": {
         "positive_examples":
