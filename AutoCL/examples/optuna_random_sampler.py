@@ -29,7 +29,7 @@ try:
 except FileNotFoundError:
     pass
 
-path_dataset = f'examples/dataset/{DATASET}.json'
+path_dataset = f'AutoCL/examples/dataset/{DATASET}.json'
 with open(path_dataset) as json_file:
     settings = json.load(json_file)
 
