@@ -1,5 +1,5 @@
 {
-    "data_path": "../KGs/Hepatitis/hepatitis.owl",
+    "data_path": "AutoCL/KGs/Hepatitis/hepatitis.owl",
     "problems": {
         "lp_1": {
         "positive_examples":
