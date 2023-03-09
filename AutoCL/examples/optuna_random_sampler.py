@@ -17,7 +17,7 @@ from search import calc_prediction
 
 
 LOG_FILE = "hpo.log"
-DATASET = "Lymphography"
+DATASET = "mammograph"
 logging.basicConfig(filename=LOG_FILE,
                     filemode="a",
                     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
@@ -25,11 +25,11 @@ logging.basicConfig(filename=LOG_FILE,
                     level=logging.INFO)
 
 try:
-    os.chdir("Ontolearn/examples")
+    os.chdir("AutoCl/examples/")
 except FileNotFoundError:
     pass
 
-path_dataset = f'AutoCL/examples/dataset/{DATASET}.json'
+path_dataset = f'dataset/{DATASET}.json'
 with open(path_dataset) as json_file:
     settings = json.load(json_file)
 
@@ -161,15 +161,15 @@ class OptunaSamplers():
         tournament_size = trial.suggest_int("tournament_size", 2, 10)
         height_limit = trial.suggest_int('height_limit', 3, 25)
         card_limit = trial.suggest_int('card_limit', 5, 10)
-        use_data_properties = trial.suggest_int('use_data_properties', 1, 2)
-        use_inverse = trial.suggest_int('use_inverse', 1, 2)
-        quality_func = trial.suggest_int('quality_func', 1, 2)
-        value_splitter = trial.suggest_int('value_splitter', 1, 2)
+        use_data_properties = trial.suggest_int('use_data_properties', 1, 4)
+        use_inverse = trial.suggest_int('use_inverse', 1, 4)
+        quality_func = trial.suggest_int('quality_func', 1, 4)
+        value_splitter = trial.suggest_int('value_splitter', 1, 4)
 
-        use_data_properties = 'True' if use_data_properties >= 2 else 'False'
-        use_inverse = 'True' if use_inverse >= 2 else 'False'
-        quality_func = 'F1' if quality_func >= 2 else 'Accuracy'
-        value_splitter = 'binning_value_splitter' if value_splitter >= 2 else 'entropy_value_splitter'
+        use_data_properties = 'True' if use_data_properties >= 3 else 'False'
+        use_inverse = 'True' if use_inverse >= 3 else 'False'
+        quality_func = 'F1' if quality_func >= 3 else 'Accuracy'
+        value_splitter = 'binning_value_splitter' if value_splitter >=3 else 'entropy_value_splitter'
 
         # call the wrapper class
         wrap_obj = EvoLearnerWrapper(knowledge_base=kb,
@@ -231,7 +231,7 @@ class OptunaSamplers():
         logging.info(f"BEST VALUE TPE SAMPLER : {self.study_tpe_sampler.best_value}")
 
     def get_best_optimization_result_for_cmes_sampler(self, n_trials):
-        self.study_cmaes_sampler.optimize(self.objective_with_categorical_distribution, n_trials=n_trials)
+        self.study_cmaes_sampler.optimize(self.objective_without_categorical_distribution, n_trials=n_trials)
         logging.info(f"BEST TRIAL CMAES SAMPLER : {self.study_cmaes_sampler.best_trial}")
         # best parameter combination
         logging.info(f"BEST PARAMS CMAES SAMPLER : {self.study_cmaes_sampler.best_params}")
@@ -282,7 +282,7 @@ if __name__ == "__main__":
 
         # create class object and get the optimised result
         optuna1 = OptunaSamplers(lp, str_target_concept, val_pos, val_neg)
-        optuna1.get_best_optimization_result_for_tpe_sampler(100)
+        optuna1.get_best_optimization_result_for_nsgii_sampler(100)
         optuna1.convert_to_csv(df)
 
         # get the best hpo

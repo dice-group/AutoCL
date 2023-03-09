@@ -4,7 +4,6 @@ import os
 import time
 from random import shuffle
 import numpy as np
-from owlapy.owlready2 import OWLOntologyManager_Owlready2
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.feature_selection import SelectKBest, SelectFpr
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -12,12 +11,13 @@ from scipy import sparse as sp
 from sklearn.feature_selection import chi2, f_classif,  mutual_info_classif
 from owlready2 import get_ontology, default_world, destroy_entity
 import logging
+from sklearn.svm import SVC
+from sklearn.feature_selection import RFE
 
-from examples.evolearner_feature_selection import EvoLearnerFeatureSelection
 from examples.search import calc_prediction
 from ontolearn.knowledge_base import KnowledgeBase
 from ontolearn.learning_problem import PosNegLPStandard
-from owlapy.model import OWLNamedIndividual, IRI, AddImport, OWLImportsDeclaration
+from owlapy.model import OWLNamedIndividual, IRI
 
 from AutoCL.ontolearn.concept_learner import EvoLearner
 
@@ -69,6 +69,28 @@ def calc_variance_threshold(pd3):
         output_variance_threshold.to_csv(f"{DATASET}_best_features_variance_threshold.csv")
     except ValueError:
         logging.error("None of the Features meet the minimum variance threshold")
+
+
+def calc_rfe(pd3):
+    X = pd3.iloc[:, 1:].values
+    y = pd3.iloc[:, 0].values
+
+    try:
+        # Create the RFE object and rank each pixel
+        svc = SVC(kernel="linear", C=1)
+        rfe = RFE(estimator=svc, n_features_to_select=3, step=1)
+        rfe.fit(X, y)
+        mask = rfe.get_support(indices=True)
+        k_best_features = pd3.iloc[:, [x + 1 for x in mask.tolist()]]
+        k_best_features.to_csv(f"{DATASET}_kbest_features_rfe.csv")
+        k_best_features_names = k_best_features.columns
+        # summarize all features
+        for i in range(X.shape[1]):
+            print('Column: %d, Selected %s, Rank: %.3f' % (i, rfe.support_[i], rfe.ranking_[i]))
+    except Exception as e:
+        logging.error(e)
+        k_best_features_names = []
+    return k_best_features_names
 
 
 def select_k_best_features(pd3, method):
@@ -309,19 +331,24 @@ if __name__ == "__main__":
         if not object_properties_df.empty:
             pd_one_hot = one_hot_encoder(object_properties_df)
             features_object_properties = list(select_k_best_features(pd_one_hot, chi2))
-            features_object_properties = list(set(map(lambda x: x.split("_feature_name_")[0], features_object_properties)))
+            features_object_properties = list(set(map(
+                                                    lambda x: x.split("_feature_name_")[0],
+                                                    features_object_properties)))
 
         if not bool_dtype_df.empty:
-            features_data_properties_categorical = list(select_k_best_features(bool_dtype_df, chi2))
+            features_data_properties_categorical = list(calc_rfe(bool_dtype_df))
 
         if not numeric_dtype_df.empty:
-            feature_data_prop_numeric = list(select_k_best_features(numeric_dtype_df, mutual_info_classif))
+            feature_data_prop_numeric = list(select_k_best_features(numeric_dtype_df, chi2))
 
         logging.info(f"OBJECT_PROP:{features_object_properties}")
         logging.info(f"DATA_PROP_Numeric:{feature_data_prop_numeric}")
         logging.info(f"DATA_PROP_BOOL:{features_data_properties_categorical}")
 
-        new_kb = create_new_kb(onto, features_object_properties, features_data_properties_categorical, feature_data_prop_numeric)
+        new_kb = create_new_kb(onto,
+                               features_object_properties,
+                               features_data_properties_categorical,
+                               feature_data_prop_numeric)
         st = time.time()
         model = EvoLearner(knowledge_base=new_kb)
         model.fit(lp)
