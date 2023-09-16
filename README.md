@@ -18,7 +18,7 @@ cd AutoCL
 conda create --name temp python=3.8
 conda activate temp
 conda install -c conda-forge optuna=3.0.3
-conda install -c conda-forge owlready2=0.39
+conda install -c conda-forge owlready2=0.41
 conda install scikit-learn=1.0.2
 conda env update --name temp
 python -c 'from setuptools import setup; setup()' develop
