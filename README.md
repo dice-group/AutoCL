@@ -30,16 +30,21 @@ Our Dataset from SML-Bench (Structured Machine Learning Benchmark) is a benchmar
 # Our contributions
 
 ### Hyperparameter Optimization(HPO)
-We proposed one approach for hyperparameter optimization of concept learners based one TPE sampler from Optuna framework.
-Our HPO source code shown in ``` optuna_random_sampler.py ``` from ``` AutoCL\examples ```.
-We ran TPE sampler via ``` get_best_optimization_result_for_tpe_sampler ``` function in order to obtain the best hyperparameters of our concepet learner.
+We proposed one approach for hyperparameter optimization of concept learners based one Covariance Matrix Adaptation Evolution Strategy(CMA-ES) sampler from Optuna framework.
+Our HPO source code shown in ``` hyperparameter optimization approach ``` from ``` AutoCL\examples ```.
+For each concept learner, We ran CMA-ES sampler via ``` get_best_optimization_result_for_cmes_sampler ``` function in order to obtain the best hyperparameters of our concepet learner.
 
 
 ### Feature Selection
 We provides methods for automatic feature selection in knowledge graphs.
-Our Feature Selection source code shown in ``` evolearner_feature_selection.py ``` from ``` AutoCL\examples ``` folder.
+Our two Feature Selection appraoches source code shown in ``` table-based feature selection ``` and  ``` graph-based feature selection ```  from ``` AutoCL\examples\feature selection approach ``` folder.
+
+Our first idea is to use a table-based wrapper method for feature selection:
+Our second idea is to use a graph-based wrapper method for feature selection: We run EvoLearner, which directly operates on the graph structure, to obtain the relevant top features from concepts via the function ``` get_prominent_properties_occurring_in_top_k_hypothesis ```
+
+
 The raw data was saved in the KGs,we employeed OwlReady2 to extra the features from KGs. Functions ```get_data_properties```, ```get_object_properties``` are used to get DatatypeProperty features and ObjectProperty features.Then ```transform_data_properties``` and ```transform_object_properties``` are used to covert the features into tabular format.
-Finaly, variance-filtered data via ```calc_variance_threshold``` function, search the best features from ```select_k_best_features``` function.
+Finaly, search the best features from ```select_k_best_features``` function based on chi square test scores.
 
 
 
