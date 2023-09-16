@@ -39,12 +39,13 @@ For each concept learner, We ran CMA-ES sampler via ``` get_best_optimization_re
 We provides methods for automatic feature selection in knowledge graphs.
 Our two Feature Selection appraoches source code shown in ``` table-based feature selection ``` and  ``` graph-based feature selection ```  from ``` AutoCL\examples\feature selection approach ``` folder.
 
-Our first idea is to use a table-based wrapper method for feature selection:
+Our first idea is to use a table-based wrapper method for feature selection: We employeed OwlReady2 to extra the features from KGs. Functions ```get_data_properties```, ```get_object_properties``` are used to get DatatypeProperty features and ObjectProperty features.Then ```transform_data_properties``` and ```transform_object_properties``` are used to covert the features into tabular format.
+Finaly, search the best features from ```select_k_best_features``` function based on chi square test scores.
+
 Our second idea is to use a graph-based wrapper method for feature selection: We run EvoLearner, which directly operates on the graph structure, to obtain the relevant top features from concepts via the function ``` get_prominent_properties_occurring_in_top_k_hypothesis ```
 
 
-The raw data was saved in the KGs,we employeed OwlReady2 to extra the features from KGs. Functions ```get_data_properties```, ```get_object_properties``` are used to get DatatypeProperty features and ObjectProperty features.Then ```transform_data_properties``` and ```transform_object_properties``` are used to covert the features into tabular format.
-Finaly, search the best features from ```select_k_best_features``` function based on chi square test scores.
+
 
 
 
