@@ -1,0 +1,42 @@
+str_target_concept Aunt
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['married', 'hasParent', 'hasChild', 'hasSibling']
+Time Taken for Feature selection: 16.560174465179443
+Time Taken for Running fit and predict: 0.6799125671386719
+=============================================
+str_target_concept Brother
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['hasParent', 'hasChild', 'hasSibling', 'married']
+Time Taken for Feature selection: 19.29895329475403
+Time Taken for Running fit and predict: 0.29314446449279785
+=============================================
+str_target_concept Cousin
+F1 Score: 0.93333
+Accuracy: 0.92857
+selected feature: ['hasParent', 'hasChild', 'hasSibling', 'married']
+Time Taken for Feature selection: 16.459939002990723
+Time Taken for Running fit and predict: 3.8508925437927246
+=============================================
+str_target_concept Aunt
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['hasSibling', 'married', 'hasParent']
+Time Taken for Feature selection: 15.499068260192871
+Time Taken for Running fit and predict: 0.5579991340637207
+=============================================
+str_target_concept Aunt
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['hasParent', 'hasChild', 'hasSibling', 'married']
+Time Taken for Feature selection: 26.10465168952942
+Time Taken for Running fit and predict: 0.9497535228729248
+=============================================
+str_target_concept Aunt
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['hasChild', 'hasParent', 'hasSibling', 'married']
+Time Taken for Feature selection: 16.18593740463257
+Time Taken for Running fit and predict: 0.7406289577484131
+=============================================

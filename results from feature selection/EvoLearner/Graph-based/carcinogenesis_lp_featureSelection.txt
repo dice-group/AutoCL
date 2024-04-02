@@ -1,0 +1,105 @@
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Alkyl_halide) ⊔ (∃ cytogen_ca.{True}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Alkyl_halide) ⊔ (∃ cytogen_ca.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Alkyl_halide) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ cytogen_ca.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Alkyl_halide) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ cytogen_ca.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Alkyl_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ chromaberr.{False}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ cytogen_ca.{True}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Alkyl_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ cytogen_ca.{True}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Alkyl_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ chromaberr.{False}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ cytogen_ca.{True}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Alkyl_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ chromaberr.{False}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ cytogen_ca.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ hasAtom.Bromine-94) ⊔ (∃ chromaberr.{False}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ hasStructure.Alkyl_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ Bromine-94) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Alkyl_halide) ⊔ (∃ hasAtom.Bromine-94) ⊔ (∃ chromaberr.{False}) ⊔ (∃ cytogen_ca.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Selected Props ['cytogen_ca', 'chromaberr', 'hasStructure', 'amesTestPositive', 'hasAtom']
+str_target_concept lp_1
+F1 Score: 0.65753
+Accuracy: 0.57627
+selected feature: ['cytogen_ca', 'chromaberr', 'hasStructure', 'amesTestPositive', 'hasAtom']
+Time Taken for Feature selection: 6.610467910766602
+Time Taken for Running fit and predict: 6.279977798461914
+=============================================
+Length of Property: 6
+Concepts Compound ⊓ (∃ hasAtom.Carbon) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ hasAtom.(Vanadium ⊔ Chlorine)) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ hasAtom.(Compound ⊔ Chlorine)) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}))))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ hasAtom.(Vanadium ⊔ Chlorine)) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 6
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ hasAtom.((∃ hasAtom.(Vanadium ⊔ Chlorine)) ⊔ Chlorine)) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}))))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ hasAtom.(Vanadium ⊔ Chlorine)) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}))
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ hasAtom.(Vanadium ⊔ Chlorine)) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Selected Props ['hasBond', 'cytogen_ca', 'hasAtom', 'drosophila_slrl', 'amesTestPositive', 'chromaberr']
+str_target_concept lp_1
+F1 Score: 0.72222
+Accuracy: 0.66102
+selected feature: ['hasBond', 'cytogen_ca', 'hasAtom', 'drosophila_slrl', 'amesTestPositive', 'chromaberr']
+Time Taken for Feature selection: 6.514031648635864
+Time Taken for Running fit and predict: 5.617491960525513
+=============================================
+Length of Property: 6
+Concepts (≥ 7 hasAtom.(∀ inBond.Carbon-193)) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 6
+Concepts (≥ 7 hasAtom.(∀ inBond.Carbon-193)) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ chromex.{False}) ⊔ (∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 6
+Concepts (≥ 7 hasAtom.(∀ inBond.Carbon-193)) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 6
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 6
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ chromex.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Selected Props ['chromex', 'hasStructure', 'inBond', 'drosophila_slrl', 'amesTestPositive', 'hasAtom']
+str_target_concept lp_1
+F1 Score: 0.77143
+Accuracy: 0.72881
+selected feature: ['chromex', 'hasStructure', 'inBond', 'drosophila_slrl', 'amesTestPositive', 'hasAtom']
+Time Taken for Feature selection: 6.387489557266235
+Time Taken for Running fit and predict: 6.107646942138672
+=============================================
