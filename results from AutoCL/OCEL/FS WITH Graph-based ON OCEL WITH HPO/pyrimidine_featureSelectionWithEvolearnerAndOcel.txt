@@ -1,0 +1,48 @@
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.LBLNode'> at 0x2afd92c	(∃ p2_size.xsd:double[≥ 0.34]) ⊔ (∃ p3_sigma.xsd:double[≥ 0.233])	Quality:0.92308	Heuristic:-0.23916	Depth:5	H_exp:63	|RC|:2	|Indv.|:40
+F1 Score: 0.75
+Accuracy: 0.75
+Time Taken for FS: 0.6201326847076416
+Time Taken for Fit and Predict: 138.3510251045227
+Time Taken for HPO: 3249.009745359421
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+6  lp_1          138                     6792798     4060900           F1        0.92308                  0.8                 0.75
+max runtime 138
+max_num_of_concepts_tested 6792798
+iter_bound 4060900
+quality_func F1
+Validation_f1_Score 0.8
+Validation_accuracy 0.75
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.LBLNode'> at 0x65b8324	(∃ p1_sigma.xsd:double[≥ 0.5]) ⊔ (∃ p1_size.xsd:double[≥ 0.34])	Quality:0.875	Heuristic:-0.34333	Depth:7	H_exp:63	|RC|:2	|Indv.|:42
+F1 Score: 0.44444
+Accuracy: 0.375
+Time Taken for FS: 0.6336765289306641
+Time Taken for Fit and Predict: 56.25093412399292
+Time Taken for HPO: 2141.6343445777893
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+3  lp_1           56                     3983960     1092391     Accuracy          0.875              0.66667                0.625
+max runtime 56
+max_num_of_concepts_tested 3983960
+iter_bound 1092391
+quality_func Accuracy
+Validation_f1_Score 0.66667
+Validation_accuracy 0.625
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.LBLNode'> at 0x91e5d14	(∃ p2_size.xsd:double[≥ 0.5]) ⊔ (∃ p3_pi_acceptor.xsd:double[≥ 0.233])	Quality:0.875	Heuristic:-3.7975	Depth:6	H_exp:243	|RC|:2	|Indv.|:32
+F1 Score: 0.57143
+Accuracy: 0.625
+Time Taken for FS: 0.5232901573181152
+Time Taken for Fit and Predict: 495.17122435569763
+Time Taken for HPO: 494.570543050766
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+0  lp_1          492                     1344150     6385129     Accuracy          0.875              0.88889                0.875
+max runtime 492
+max_num_of_concepts_tested 1344150
+iter_bound 6385129
+quality_func Accuracy
+Validation_f1_Score 0.88889
+Validation_accuracy 0.875
+_______________________________________

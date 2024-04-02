@@ -1,0 +1,27 @@
+Learning Problem: Aunt
+F1 Score: 0.72
+Accuracy: 0.61111
+Time Taken for FS with one hot: 0.2876906394958496
+Time Taken for FS without one hot: 0.20138287544250488
+Time Taken for Fit and Predict: 56.1208336353302
+Time Taken for HPO: 2336.677328824997
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+2  Aunt           51                     5847821     8006730           F1           0.96              0.94118               0.9375
+Learning Problem: Aunt
+F1 Score: 0.72
+Accuracy: 0.61111
+Time Taken for FS with one hot: 0.28061938285827637
+Time Taken for FS without one hot: 0.19969415664672852
+Time Taken for Fit and Predict: 183.11208987236023
+Time Taken for HPO: 2005.2693045139313
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+1  Aunt          173                     8233023     5704124           F1        0.88889                  0.8                 0.75
+Learning Problem: Aunt
+F1 Score: 0.78261
+Accuracy: 0.72222
+Time Taken for FS with one hot: 0.2700340747833252
+Time Taken for FS without one hot: 0.19164514541625977
+Time Taken for Fit and Predict: 37.57243537902832
+Time Taken for HPO: 2337.6043829917908
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+0  Aunt           27                     8172152     7936096     Accuracy          0.875                  0.8                 0.75

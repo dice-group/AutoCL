@@ -1,0 +1,48 @@
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.LBLNode'> at 0x7c4b444	∃ hasBiRads.xsd:double[≥ 4.5]	Quality:0.80035	Heuristic:0.34966	Depth:5	H_exp:30	|RC|:1	|Indv.|:357
+F1 Score: 0.79503
+Accuracy: 0.82902
+Time Taken for FS: 8.331854343414307
+Time Taken for Fit and Predict: 8.022964000701904
+Time Taken for HPO: 2577.247432947159
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+0  lp_1            7                     2721022     9208859     Accuracy        0.80035              0.84146              0.86458
+max runtime 7
+max_num_of_concepts_tested 2721022
+iter_bound 9208859
+quality_func Accuracy
+Validation_f1_Score 0.84146
+Validation_accuracy 0.86458
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.LBLNode'> at 0x6f5767c	∃ hasBiRads.xsd:double[≥ 4.5]	Quality:0.80903	Heuristic:0.34355	Depth:5	H_exp:31	|RC|:1	|Indv.|:357
+F1 Score: 0.79747
+Accuracy: 0.8342
+Time Taken for FS: 11.755419731140137
+Time Taken for Fit and Predict: 131.49547839164734
+Time Taken for HPO: 2461.11043548584
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+7  lp_1          127                     4017392     5948459     Accuracy        0.80903              0.80488              0.83333
+max runtime 127
+max_num_of_concepts_tested 4017392
+iter_bound 5948459
+quality_func Accuracy
+Validation_f1_Score 0.80488
+Validation_accuracy 0.83333
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.LBLNode'> at 0xbd58ba4	∃ hasBiRads.xsd:double[≥ 4.5]	Quality:0.82118	Heuristic:0.36177	Depth:5	H_exp:31	|RC|:1	|Indv.|:357
+F1 Score: 0.78528
+Accuracy: 0.81865
+Time Taken for FS: 18.179985761642456
+Time Taken for Fit and Predict: 438.734580039978
+Time Taken for HPO: 433.07596230506897
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+0  lp_1          430                     3149452     2912439     Accuracy        0.82118              0.77778               0.8125
+max runtime 430
+max_num_of_concepts_tested 3149452
+iter_bound 2912439
+quality_func Accuracy
+Validation_f1_Score 0.77778
+Validation_accuracy 0.8125
+_______________________________________
