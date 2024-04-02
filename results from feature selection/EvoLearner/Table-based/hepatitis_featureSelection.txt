@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 0.75862
+Accuracy 0.78788
+selected feature ['hasScreening', 'totalBilirubinLevel', 'duration', 'directBilirubinLevel', 'albuminLevel', 'totalCholesterolLevel']
+Time Taken for FS With One hot 6.985467910766602
+Time Taken Without one hot 6.2041473388671875
+Time Taken For Fit and Predict 5.568478345870972
+--------str_target_concept----------- lp_1
+F1 Score 0.82828
+Accuracy 0.82828
+selected feature ['hasScreening', 'duration', 'albuminLevel', 'totalCholesterolLevel', 'totalBilirubinLevel', 'totalProteinLevel']
+Time Taken for FS With One hot 6.907537221908569
+Time Taken Without one hot 6.108083486557007
+Time Taken For Fit and Predict 5.601520299911499
+--------str_target_concept----------- lp_1
+F1 Score 0.67606
+Accuracy 0.76768
+selected feature ['hasScreening', 'totalProteinLevel', 'duration', 'directBilirubinLevel', 'albuminLevel', 'glutamicOxaloaceticTransaminaseLevel']
+Time Taken for FS With One hot 6.841247797012329
+Time Taken Without one hot 6.062579870223999
+Time Taken For Fit and Predict 5.877015113830566

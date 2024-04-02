@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['has_bond', 'DSSTox_Generic_SID', 'LOG_ER_RBA', 'STRUCTURE_MolecularWeight', 'DSSTox_CID', 'DSSTox_RID']
+Time Taken for FS With One hot 158.18894815444946
+Time Taken Without one hot 154.2641317844391
+Time Taken For Fit and Predict 1.3024497032165527
+--------str_target_concept----------- lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['has_bond', 'DSSTox_RID', 'STRUCTURE_MolecularWeight', 'DSSTox_CID', 'DSSTox_Generic_SID', 'LOG_ER_RBA']
+Time Taken for FS With One hot 158.11017441749573
+Time Taken Without one hot 153.77425742149353
+Time Taken For Fit and Predict 0.9084596633911133
+--------str_target_concept----------- lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['has_bond', 'DSSTox_CID', 'DSSTox_RID', 'LOG_ER_RBA', 'DSSTox_Generic_SID', 'STRUCTURE_MolecularWeight']
+Time Taken for FS With One hot 157.37237453460693
+Time Taken Without one hot 153.5199646949768
+Time Taken For Fit and Predict 0.8775801658630371

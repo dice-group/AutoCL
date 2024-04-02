@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 0.63345
+Accuracy 0.46354
+selected feature ['hasShape', 'hasMargin', 'hasDensity']
+Time Taken for FS With One hot 0.08803248405456543
+Time Taken Without one hot 0.012470006942749023
+Time Taken For Fit and Predict 5.169496059417725
+--------str_target_concept----------- lp_1
+F1 Score 0.63345
+Accuracy 0.46354
+selected feature ['hasMargin', 'hasShape', 'hasDensity']
+Time Taken for FS With One hot 0.08818793296813965
+Time Taken Without one hot 0.012650251388549805
+Time Taken For Fit and Predict 5.150832891464233
+--------str_target_concept----------- lp_1
+F1 Score 0.63345
+Accuracy 0.46354
+selected feature ['hasDensity', 'hasMargin', 'hasShape']
+Time Taken for FS With One hot 0.08656477928161621
+Time Taken Without one hot 0.012515068054199219
+Time Taken For Fit and Predict 5.160884141921997
