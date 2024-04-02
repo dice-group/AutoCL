@@ -1,0 +1,51 @@
+Learning Problem: lp_1
+F1 Score: 0.57576
+Accuracy: 0.54098
+Time Taken for FS: 6.589672088623047
+Time Taken for HPO: 498.3599648475647
+Time Taken for Fit and Predict: 9.623049020767212
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+10  lp_1            9                6            18           7                True     Accuracy            False  entropy_value_splitter        0.73596              0.73973              0.67797
+best_hpo-maxr 9
+best_hpo-tournament_size 6
+best_hpo-card_limit 7
+best_hpo-height_limit 18
+best_hpo-use_data_properties True
+best_hpo-use_inverse_prop False
+best_hpo-quality_func Accuracy
+best_hpo-value_splitter entropy_value_splitter
+_______________________________________
+Learning Problem: lp_1
+F1 Score: 0.70455
+Accuracy: 0.57377
+Time Taken for FS: 24.642245769500732
+Time Taken for HPO: 376.5930459499359
+Time Taken for Fit and Predict: 11.026679039001465
+Best Hpo:      LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+5  lp_1           10                7            19           7               False           F1            False  entropy_value_splitter        0.72868               0.7191              0.57627
+best_hpo-maxr 10
+best_hpo-tournament_size 7
+best_hpo-card_limit 7
+best_hpo-height_limit 19
+best_hpo-use_data_properties False
+best_hpo-use_inverse_prop False
+best_hpo-quality_func F1
+best_hpo-value_splitter entropy_value_splitter
+_______________________________________
+Learning Problem: lp_1
+F1 Score: 0.7191
+Accuracy: 0.59016
+Time Taken for FS: 93.66332364082336
+Time Taken for HPO: 355.676127910614
+Time Taken for Fit and Predict: 12.177836179733276
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+13  lp_1           11                5            11          10               False     Accuracy            False  binning_value_splitter        0.59551              0.74286              0.69492
+best_hpo-maxr 11
+best_hpo-tournament_size 5
+best_hpo-card_limit 10
+best_hpo-height_limit 11
+best_hpo-use_data_properties False
+best_hpo-use_inverse_prop False
+best_hpo-quality_func Accuracy
+best_hpo-value_splitter binning_value_splitter
+_______________________________________
