@@ -1,0 +1,99 @@
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ⊤ ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ ⊤
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasBond.Bond-7)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.⊤) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.⊤) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasBond.Bond)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ lumo.xsd:double[≤ -1.84]) ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ logp.xsd:double[≤ 1.17]) ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Selected Props ['logp', 'hasStructure', 'act', 'lumo', 'hasBond']
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (Bond-7 ⊔ (∃ act.xsd:double[≥ -0.03]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ -0.03]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ⊤ ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ -0.03]) ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False})
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False}) ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ -0.03]) ⊓ (∃ hasBond.Bond)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.⊤) ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ -0.03]) ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ act.xsd:double[≥ -0.03]) ⊔ (∃ logp.xsd:double[≤ 1.195]))
+Count 1
+Selected Props ['hasBond', 'hasStructure', 'act', 'logp', 'hasFifeExamplesOfAcenthrylenes']
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ -0.03])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts (∃ charge.xsd:double[≥ -0.235]) ⊔ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (Bond-1 ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ hasStructure.Carbon_5_aromatic_ring) ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.Bond) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasBond.Bond-1)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasAtom.⊤) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Selected Props ['hasBond', 'hasStructure', 'hasAtom', 'act', 'charge']

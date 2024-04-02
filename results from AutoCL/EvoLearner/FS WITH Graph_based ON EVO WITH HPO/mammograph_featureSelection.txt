@@ -1,0 +1,150 @@
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ¬(∃ hasBiRads.xsd:double[≤ 4.5])
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.irregular
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.⊤
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.ill-defined
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.circumscribed
+Count 1
+Length of Property: 5
+Concepts ¬round
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.Patient
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.(∃ hasBiRads.xsd:double[≤ 4.5])
+Count 1
+Length of Property: 5
+Concepts ≤ 6 hasDensity.high
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.(∀ hasDensity.Measure)
+Count 1
+Length of Property: 5
+Concepts ≤ 7 hasMargin.⊤
+Count 1
+Length of Property: 5
+Concepts ≤ 4 hasDensity.circumscribed
+Count 1
+Length of Property: 5
+Concepts ≤ 2 hasShape.fat-containing
+Count 1
+Length of Property: 5
+Concepts ≤ 2 hasMargin.circumscribed
+Count 1
+Length of Property: 5
+Concepts ≤ 2 hasDensity.lobular
+Count 1
+Length of Property: 5
+Concepts ≤ 1 hasShape.low
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.(microlobulated ⊔ ⊥)
+Count 1
+Length of Property: 5
+Concepts ¬(≥ 4 hasDensity.unknown)
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.(∀ hasDensity.(∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.high
+Count 1
+Length of Property: 5
+Concepts ≤ 9 hasDensity.(Density ⊔ ⊤)
+Count 1
+Length of Property: 5
+Concepts ≤ 5 hasMargin.(∀ hasMargin.(≥ 6 hasShape.oval))
+Count 1
+Length of Property: 5
+Concepts ¬((≤ 7 hasShape.high) ⊓ (∃ hasDensity.low))
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≤ 61.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≤ 4.5]
+Count 1
+Length of Property: 5
+Concepts ¬(∃ hasBiRads.xsd:double[≥ 4.5])
+Count 1
+Length of Property: 5
+Concepts ∃ hasDensity.unknown
+Count 1
+Length of Property: 5
+Concepts ∃ hasDensity.lobular
+Count 1
+Length of Property: 5
+Concepts ∃ hasDensity.high
+Count 1
+Length of Property: 5
+Concepts ∃ hasMargin.low
+Count 1
+Selected Props ['hasDensity', 'hasShape', 'hasMargin', 'hasBiRads', 'hasAge']
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 60.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 53.5]
+Count 1
+Length of Property: 5
+Concepts ¬microlobulated
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.high
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.iso
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.circumscribed
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.⊤
+Count 1
+Length of Property: 5
+Concepts ≤ 1 hasDensity.oval
+Count 1
+Length of Property: 5
+Concepts ≤ 6 hasMargin.⊥
+Count 1
+Length of Property: 5
+Concepts irregular ⊔ ⊤
+Count 1
+Selected Props ['hasShape', 'hasDensity', 'hasBiRads', 'hasMargin', 'hasAge']
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 64.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 47.5]
+Count 1
+Length of Property: 5
+Concepts (∃ hasMargin.(≤ 3 hasMargin.Margin)) ⊔ (∃ hasAge.xsd:double[≥ 47.5])
+Count 1
+Length of Property: 5
+Concepts ¬spiculated
+Count 1
+Length of Property: 5
+Concepts ≤ 1 hasDensity.Patient
+Count 1
+Length of Property: 5
+Concepts ≤ 6 hasShape.high
+Count 1
+Selected Props ['hasAge', 'hasDensity', 'hasBiRads', 'hasShape', 'hasMargin']

@@ -1,0 +1,93 @@
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ shots_on_target_conceded_outside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 11
+Concepts Player ⊓ ((∃ big_chances_faced.xsd:integer[≥ 4]) ⊔ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 4])))
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ unsuccessful_passes_in_opposition_half.xsd:integer[≥ 2])) ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 4]))
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ shots_on_target_from_inside_box.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ shots_on_target_conceded_outside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 11
+Concepts (∃ has_action.⊤) ⊓ (∃ has_action.(∃ shots_on_target_from_inside_box.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ shots_on_target_conceded_outside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ big_chances_faced.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ big_chances_faced.xsd:integer[≥ 1])) ⊓ Player
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ big_chances_faced.xsd:integer[≥ 1])) ⊓ (∃ has_action.Action)
+Count 1
+Length of Property: 11
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1])) ⊓ (∃ has_action.⊤)
+Count 1
+Selected Props ['shots_on_target_conceded', 'shots_on_target_conceded_outside_box', 'big_chances', 'successful_passes_in_opposition_half', 'shots_on_target_from_inside_box', 'goals_conceded', 'unsuccessful_passes_in_opposition_half', 'big_chances_faced', 'has_action', 'goals_conceded_inside_box', 'goalkeeper_successful_distribution']
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_unsuccessful_distribution.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts ⊤ ⊓ (∃ has_action.(∃ goalkeeper_unsuccessful_distribution.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ ⊤ ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1])) ⊓ ⊤
+Count 1
+Length of Property: 10
+Concepts (∃ has_action.(∃ goalkeeper_unsuccessful_distribution.xsd:integer[≥ 1])) ⊓ (∃ has_action.(∃ unsuccessful_open_play_crosses.xsd:integer[≥ 0]))
+Count 1
+Length of Property: 10
+Concepts (∃ has_action.(∃ unsuccessful_passes_in_defensive_third.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ goalkeeper_unsuccessful_distribution.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.Action) ⊓ (∃ has_action.(∃ shots_on_target_conceded_outside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.Action) ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1])) ⊓ (∃ has_action.Action)
+Count 1
+Length of Property: 10
+Concepts (∃ has_action.Action) ⊓ (∃ has_action.(∃ shots_on_target_conceded_outside_box.xsd:integer[≥ 1])) ⊓ (∃ has_action.⊤)
+Count 1
+Selected Props ['unsuccessful_open_play_crosses', 'shots_on_target_conceded', 'goalkeeper_unsuccessful_distribution', 'has_action', 'shots_on_target_conceded_outside_box', 'successful_passes_in_defensive_third', 'goals_conceded_inside_box', 'goals_conceded', 'unsuccessful_passes_in_defensive_third', 'successful_open_play_crosses']
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ saves_made.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ catches.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.⊤) ⊓ (∃ has_action.(∃ saves_made.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.⊤) ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ saves_made.xsd:integer[≥ 2])) ⊓ (∃ has_action.Action)
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 2])) ⊓ (∃ has_action.(∃ left_foot_goals.xsd:integer[≥ 0]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.Action) ⊓ (∃ has_action.⊤) ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_distribution.xsd:integer[≥ 8]))
+Count 1
+Length of Property: 9
+Concepts Player ⊓ (∃ has_action.(∃ saves_made_from_inside_box.xsd:integer[≥ 1]))
+Count 1
+Selected Props ['goals_conceded_inside_box', 'goalkeeper_successful_distribution', 'saves_made', 'left_foot_goals', 'saves_made_from_inside_box', 'goals_conceded', 'goalkeeper_distribution', 'has_action', 'catches']
