@@ -1,0 +1,48 @@
+Learning Problem: lp_4
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0xc437766	∃ act.xsd:double[≥ 0.325]	Quality:0.92308	Heuristic:0.0365	Depth:5	H_exp:10	|RC|:1	|Indv.|:None
+F1 Score: 1.0
+Accuracy: 1.0
+Time Taken for FS: 1.4443421363830566
+Time Taken for Fit and Predict: 108.89781737327576
+Time Taken for HPO: 7435.13138628006
+Best Hpo:       LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+16  lp_4          108                  5550406449  7262512741           F1        0.92308                  1.0                  1.0
+max runtime 108
+max_num_of_concepts_tested 5550406449
+iter_bound 7262512741
+quality_func F1
+Validation_f1_Score 1.0
+Validation_accuracy 1.0
+_______________________________________
+Learning Problem: lp_4
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0x9e33c90	∃ act.xsd:double[≥ -0.225]	Quality:0.93333	Heuristic:-0.05017	Depth:4	H_exp:11	|RC|:1	|Indv.|:None
+F1 Score: 0.85714
+Accuracy: 0.88889
+Time Taken for FS: 3.08980131149292
+Time Taken for Fit and Predict: 223.63543558120728
+Time Taken for HPO: 11243.233896017075
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+7  lp_4          223                  3818333623  7822412752           F1        0.93333                  1.0                  1.0
+max runtime 223
+max_num_of_concepts_tested 3818333623
+iter_bound 7822412752
+quality_func F1
+Validation_f1_Score 1.0
+Validation_accuracy 1.0
+_______________________________________
+Learning Problem: lp_4
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0x5f9ba51	∃ act.xsd:double[≥ 0.325]	Quality:1.0	Heuristic:0.82	Depth:5	H_exp:3	|RC|:0	|Indv.|:None
+F1 Score: 0.8
+Accuracy: 0.88889
+Time Taken for FS: 2.6579196453094482
+Time Taken for Fit and Predict: 0.7001228332519531
+Time Taken for HPO: 6025.393357515335
+Best Hpo:       LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+34  lp_4           79                  2804807837  4431462160           F1            1.0                  1.0                  1.0
+max runtime 79
+max_num_of_concepts_tested 2804807837
+iter_bound 4431462160
+quality_func F1
+Validation_f1_Score 1.0
+Validation_accuracy 1.0
+_______________________________________

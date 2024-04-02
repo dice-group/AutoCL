@@ -1,0 +1,93 @@
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 20])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.335])
+Count 1
+Length of Property: 5
+Concepts (∃ ActivityScore_NCTRER.xsd:integer[≥ 20]) ⊔ (∃ LOG_ER_RBA.xsd:double[≥ -5001.335])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ ⊤ ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 20])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.335])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 20]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 20])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ atom.Atom) ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 20])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ number_of_bounds.xsd:integer[≥ 7]) ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 20])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.335]) ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.335])
+Count 1
+Selected Props ['number_of_bounds', 'ActivityScore_NCTRER', 'LOG_ER_RBA', 'ER_RBA', 'atom']
+Length of Property: 6
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 15])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.805])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 15])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.805]) ⊓ Molecule
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.805])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 15]) ⊓ Molecule
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.805]) ⊓ (∃ molecule_is_chiral.{False})
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ ((∃ charge.xsd:integer[≥ 0]) ⊔ (∃ ActivityScore_NCTRER.xsd:integer[≥ 15]))
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.805]) ⊓ (∃ F5_Phenol3nPhenyl.xsd:integer[≥ 0])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ molecule_is_chiral.{False}) ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.805])
+Count 1
+Selected Props ['LOG_ER_RBA', 'ER_RBA', 'ActivityScore_NCTRER', 'charge', 'molecule_is_chiral', 'F5_Phenol3nPhenyl']
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 14])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.865])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 14])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 14]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.865])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.865]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ F6_OtherKeyFeatures.xsd:integer[≥ 0]) ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 14])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 14]) ⊓ (∃ F5_Phenol3nPhenyl.xsd:integer[≥ 0])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.865]) ⊓ (∃ F6_OtherKeyFeatures.xsd:integer[≥ 0])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5001.865]) ⊓ (∃ ER_RBA.xsd:double[≥ 0.0])
+Count 1
+Selected Props ['ER_RBA', 'F6_OtherKeyFeatures', 'ActivityScore_NCTRER', 'LOG_ER_RBA', 'F5_Phenol3nPhenyl']

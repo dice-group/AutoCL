@@ -1,0 +1,93 @@
+Length of Property: 14
+Concepts ⊤ ⊓ (∃ p2_size.xsd:double[≥ 0.18]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233])
+Count 1
+Length of Property: 14
+Concepts (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 14
+Concepts ⊤ ⊓ (∃ p3_flex.xsd:double[≥ 0.1]) ⊓ (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 14
+Concepts ⊤ ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 14
+Concepts ⊤ ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p2_sigma.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 14
+Concepts (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p2_sigma.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 14
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p2_sigma.xsd:double[≥ 0.18]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 14
+Concepts ⊤ ⊓ (∃ p3_h_donor.xsd:double[≥ 0.1]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 14
+Concepts (∃ p2_polar.xsd:double[≤ 0.82]) ⊓ ((∃ p3_pi_acceptor.xsd:double[≥ 0.233]) ⊔ (⊤ ⊓ (∃ p2_size.xsd:double[≥ 0.34])))
+Count 1
+Length of Property: 14
+Concepts (∃ p1_h_donor.xsd:double[≥ 0.1]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ ((∃ p2_polar.xsd:double[≥ 0.34]) ⊔ (∃ p2_pi_donor.xsd:double[≥ 0.3]))
+Count 1
+Selected Props ['p3_flex', 'p3_pi_acceptor', 'p1_polar', 'p2_size', 'p1_flex', 'p2_polar', 'p1_h_acceptor', 'p3_h_donor', 'p1_h_donor', 'p1_polarizable', 'p1_pi_donor', 'p2_sigma', 'p2_pi_donor', 'p1_size']
+Length of Property: 6
+Concepts (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p1_flex.xsd:double[≤ 0.2])
+Count 1
+Length of Property: 6
+Concepts (∃ p1_sigma.xsd:double[≥ 0.26]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 6
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_sigma.xsd:double[≥ 0.26])
+Count 1
+Length of Property: 6
+Concepts (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p1_sigma.xsd:double[≥ 0.26])
+Count 1
+Length of Property: 6
+Concepts ⊤ ⊓ (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p1_sigma.xsd:double[≥ 0.26])
+Count 1
+Length of Property: 6
+Concepts ⊤ ⊓ (∃ p1_polar.xsd:double[≥ 0.3]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 6
+Concepts ⊤ ⊓ (∃ p1_sigma.xsd:double[≥ 0.26]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 6
+Concepts ⊤ ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_polar.xsd:double[≥ 0.3])
+Count 1
+Length of Property: 6
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ ⊤ ⊓ (∃ p1_sigma.xsd:double[≥ 0.26])
+Count 1
+Length of Property: 6
+Concepts ⊤ ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_sigma.xsd:double[≥ 0.26])
+Count 1
+Selected Props ['p1_flex', 'p1_polar', 'p1_sigma', 'p1_size', 'p1_h_acceptor', 'p1_pi_donor']
+Length of Property: 11
+Concepts (∃ p2_pi_acceptor.xsd:double[≥ 0.1]) ⊓ (∃ p1_flex.xsd:double[≤ 0.4]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.367]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_sigma.xsd:double[≥ 0.18]) ⊓ ((∃ p2_polar.xsd:double[≥ 0.34]) ⊔ (∃ p3_size.xsd:double[≥ 0.366]))
+Count 1
+Length of Property: 11
+Concepts (∃ p3_h_acceptor.xsd:double[≤ 0.7]) ⊓ ((∃ p3_pi_acceptor.xsd:double[≥ 0.233]) ⊔ ((∃ p1_flex.xsd:double[≤ 0.4]) ⊓ (∃ p1_pi_donor.xsd:double[≥ 0.3])))
+Count 1
+Length of Property: 11
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.367])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_polarizable.xsd:double[≥ 0.367]) ⊓ (∃ p1_flex.xsd:double[≤ 0.4])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.367])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_sigma.xsd:double[≥ 0.18]) ⊓ (∃ p1_flex.xsd:double[≤ 0.4])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_flex.xsd:double[≤ 0.4]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.367])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_polarizable.xsd:double[≥ 0.367]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_flex.xsd:double[≤ 0.4]) ⊓ (∃ p1_pi_donor.xsd:double[≥ 0.3])
+Count 1
+Selected Props ['p3_size', 'p2_polar', 'p3_pi_acceptor', 'p1_h_acceptor', 'p1_sigma', 'p1_polar', 'p1_flex', 'p3_h_acceptor', 'p1_pi_donor', 'p2_pi_acceptor', 'p1_polarizable']

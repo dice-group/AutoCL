@@ -1,0 +1,117 @@
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasDensity.oval) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5])) ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5])) ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5])) ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5])) ⊓ ((∃ hasAge.xsd:double[≥ 66.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]))
+Count 1
+Length of Property: 5
+Concepts ((≥ 7 hasShape.(¬oval)) ⊔ (∀ hasDensity.(∃ hasMargin.microlobulated))) ⊓ ((∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasBiRads.xsd:double[≥ 4.5]) ⊔ (∃ hasAge.xsd:double[≥ 66.5]))
+Count 1
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts Patient ⊓ (∃ hasBiRads.xsd:double[≥ 4.5])
+Count 1
+Selected Props ['hasBiRads', 'hasAge', 'hasDensity', 'hasMargin', 'hasShape']
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ¬(∃ hasAge.xsd:double[≤ 57.5])
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.Margin
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.iso
+Count 1
+Length of Property: 5
+Concepts ¬⊥
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.(∀ hasDensity.irregular)
+Count 1
+Length of Property: 5
+Concepts ≤ 9 hasDensity.Patient
+Count 1
+Length of Property: 5
+Concepts ≤ 9 hasMargin.(≤ 7 hasMargin.⊤)
+Count 1
+Length of Property: 5
+Concepts ≤ 10 hasShape.(≥ 10 hasMargin.Margin)
+Count 1
+Length of Property: 5
+Concepts ≤ 4 hasMargin.(∃ hasDensity.(lobular ⊓ unknown))
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≤ 57.5]
+Count 1
+Selected Props ['hasAge', 'hasDensity', 'hasBiRads', 'hasMargin', 'hasShape']
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 63.5]
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.spiculated
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.Patient
+Count 1
+Length of Property: 5
+Concepts ¬Density
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.(∀ hasMargin.low)
+Count 1
+Length of Property: 5
+Concepts ≤ 7 hasDensity.spiculated
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.(∃ hasAge.xsd:double[≥ 66.5])
+Count 1
+Length of Property: 5
+Concepts ≤ 1 hasShape.microlobulated
+Count 1
+Selected Props ['hasDensity', 'hasBiRads', 'hasShape', 'hasAge', 'hasMargin']
