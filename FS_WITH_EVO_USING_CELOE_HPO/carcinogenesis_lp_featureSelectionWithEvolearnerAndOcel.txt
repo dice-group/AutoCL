@@ -1,0 +1,48 @@
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0xc86096d	≤ 2 hasStructure.Ether	Quality:0.72868	Heuristic:0.12774	Depth:11	H_exp:7	|RC|:3	|Indv.|:None
+F1 Score: 0.68235
+Accuracy: 0.55738
+Time Taken for FS: 6.503867149353027
+Time Taken for Fit and Predict: 257.11066031455994
+Time Taken for HPO: 7264.272832632065
+Best Hpo:       LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+30  lp_1          256                  6697977261  6573759303           F1        0.72868              0.70588              0.57627
+max runtime 256
+max_num_of_concepts_tested 6697977261
+iter_bound 6573759303
+quality_func F1
+Validation_f1_Score 0.70588
+Validation_accuracy 0.57627
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0xb712858	∀ hasAtom.(¬Sulfur-75)	Quality:0.72243	Heuristic:0.22652	Depth:3	H_exp:6	|RC|:1	|Indv.|:None
+F1 Score: 0.7033
+Accuracy: 0.55738
+Time Taken for FS: 6.308128118515015
+Time Taken for Fit and Predict: 187.97341918945312
+Time Taken for HPO: 9297.549412250519
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+7  lp_1          187                  2671024632  6249637993           F1        0.72243              0.70455              0.55932
+max runtime 187
+max_num_of_concepts_tested 2671024632
+iter_bound 6249637993
+quality_func F1
+Validation_f1_Score 0.70455
+Validation_accuracy 0.55932
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0x6695866	∃ hasStructure.(Di ⊔ Halide)	Quality:0.62921	Heuristic:0.0208	Depth:4	H_exp:7	|RC|:32	|Indv.|:None
+F1 Score: 0.69333
+Accuracy: 0.62295
+Time Taken for FS: 6.7478415966033936
+Time Taken for Fit and Predict: 465.28933572769165
+Time Taken for HPO: 7150.277352333069
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+0  lp_1          464                  9479531559  2821416050     Accuracy        0.62921              0.67568              0.59322
+max runtime 464
+max_num_of_concepts_tested 9479531559
+iter_bound 2821416050
+quality_func Accuracy
+Validation_f1_Score 0.67568
+Validation_accuracy 0.59322
+_______________________________________

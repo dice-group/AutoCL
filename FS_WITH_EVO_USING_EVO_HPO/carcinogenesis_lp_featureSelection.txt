@@ -1,0 +1,231 @@
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_slrl.{True}) ⊔ ((∃ amesTestPositive.{True}) ⊓ (∃ isMutagenic.{False})) ⊔ (∃ hasStructure.Ar_halide) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasStructure.Ar_halide) ⊔ (∃ hasStructure.Ar_halide))
+Count 1
+Length of Property: 8
+Concepts Compound ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromex.{False}) ⊔ (⊤ ⊓ (∃ isMutagenic.{False}) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ hasStructure.Ar_halide))
+Count 1
+Length of Property: 8
+Concepts ⊤ ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromex.{False}) ⊔ ((∃ amesTestPositive.{True}) ⊓ (∃ isMutagenic.{False}) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ hasStructure.Ar_halide))
+Count 1
+Length of Property: 8
+Concepts Compound ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromex.{False}) ⊔ ((∃ amesTestPositive.{True}) ⊓ (∃ isMutagenic.{False}) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ hasStructure.Ar_halide))
+Count 1
+Length of Property: 8
+Concepts (∃ hasAtom.Hydrogen) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromex.{False}) ⊔ ((∃ amesTestPositive.{True}) ⊓ (∃ isMutagenic.{False}) ⊓ (∃ amesTestPositive.{True})))
+Count 1
+Length of Property: 8
+Concepts (∃ hasAtom.Hydrogen) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromex.{True}) ⊔ ((∃ amesTestPositive.{True}) ⊓ (∃ isMutagenic.{False}) ⊓ (∃ amesTestPositive.{True})))
+Count 1
+Length of Property: 8
+Concepts Compound ⊓ ((∃ chromex.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Ar_halide))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Ar_halide))
+Count 1
+Selected Props ['hasStructure', 'drosophila_slrl', 'chromex', 'cytogen_ca', 'isMutagenic', 'hasAtom', 'amesTestPositive', 'chromaberr']
+Length of Property: 7
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (≥ 2 hasBond.(∀ hasAtom.Oxygen-41)) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.(∃ salmonella_n.{True})) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ hasStructure.(∃ cytogen_ca.{False})))
+Count 1
+Length of Property: 7
+Concepts (≤ 6 hasStructure.Iodine-95) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasBond.(≤ 5 hasBond.Bond-1)) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide)) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Selected Props ['hasBond', 'salmonella_n', 'hasStructure', 'cytogen_ca', 'salmonella', 'hasAtom', 'amesTestPositive']
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False})) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ Carbon) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True})) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ Carbon ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ Carbon ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{False}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∀ hasStructure.Tin) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasAtom.Carbon)
+Count 1
+Selected Props ['chromaberr', 'drosophila_slrl', 'amesTestPositive', 'hasStructure', 'hasAtom']

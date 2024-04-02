@@ -1,0 +1,96 @@
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.EvoLearnerNode'> at 0x22356e0	∀ hasDensity.Shape	Quality:0.46354	Length:3	Tree Length:2	Tree Depth:1	|Indv.|:961
+F1 Score: 0.63121
+Accuracy: 0.46114
+Time Taken for FS with one hot: 0.08592009544372559
+Time Taken for FS without one hot: 0.012328147888183594
+Time Taken for Fit and Predict: 2.11365008354187
+Time Taken for HPO: 312.88550639152527
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+18  lp_1            2                7            12           8               False     Accuracy            False  binning_value_splitter        0.46354              0.63345              0.46354
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+18  lp_1            2                7            12           8               False     Accuracy            False  binning_value_splitter        0.46354              0.63345              0.46354
+best_hpo-maxr 2
+best_hpo-tournament_size 7
+best_hpo-card_limit 8
+best_hpo-maxr 2
+best_hpo-tournament_size 7
+best_hpo-card_limit 8
+best_hpo-height_limit 12
+best_hpo-use_data_properties False
+best_hpo-use_inverse_prop False
+best_hpo-quality_func Accuracy
+best_hpo-value_splitter binning_value_splitter
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.EvoLearnerNode'> at 0x866286d	∀ hasShape.lobular	Quality:0.46354	Length:3	Tree Length:2	Tree Depth:1	|Indv.|:961
+F1 Score: 0.63121
+Accuracy: 0.46114
+Time Taken for FS with one hot: 0.08530831336975098
+Time Taken for FS without one hot: 0.01251363754272461
+Time Taken for Fit and Predict: 3.284203290939331
+Time Taken for HPO: 305.36185336112976
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+28  lp_1            3                8            17           7               False     Accuracy            False  entropy_value_splitter        0.46354              0.63345              0.46354
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+28  lp_1            3                8            17           7               False     Accuracy            False  entropy_value_splitter        0.46354              0.63345              0.46354
+best_hpo-maxr 3
+best_hpo-tournament_size 8
+best_hpo-card_limit 7
+best_hpo-maxr 3
+best_hpo-tournament_size 8
+best_hpo-card_limit 7
+best_hpo-height_limit 17
+best_hpo-use_data_properties False
+best_hpo-use_inverse_prop False
+best_hpo-quality_func Accuracy
+best_hpo-value_splitter entropy_value_splitter
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.EvoLearnerNode'> at 0x37610b3	∀ hasDensity⁻.microlobulated	Quality:0.46354	Length:4	Tree Length:2	Tree Depth:1	|Indv.|:961
+F1 Score: 0.63121
+Accuracy: 0.46114
+Time Taken for FS with one hot: 0.08610105514526367
+Time Taken for FS without one hot: 0.012223958969116211
+Time Taken for Fit and Predict: 6.185598611831665
+Time Taken for HPO: 337.4868359565735
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+29  lp_1            6                9            20           8               False     Accuracy             True  binning_value_splitter        0.46354              0.63345              0.46354
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+29  lp_1            6                9            20           8               False     Accuracy             True  binning_value_splitter        0.46354              0.63345              0.46354
+best_hpo-maxr 6
+best_hpo-tournament_size 9
+best_hpo-card_limit 8
+best_hpo-maxr 6
+best_hpo-tournament_size 9
+best_hpo-card_limit 8
+best_hpo-height_limit 20
+best_hpo-use_data_properties False
+best_hpo-use_inverse_prop True
+best_hpo-quality_func Accuracy
+best_hpo-value_splitter binning_value_splitter
+_______________________________________
+Learning Problem: lp_1
+Concept Generated After Feature Selection: <class 'ontolearn.search.EvoLearnerNode'> at 0xb0663c7	∀ hasShape.ill-defined	Quality:0.46354	Length:3	Tree Length:2	Tree Depth:1	|Indv.|:961
+F1 Score: 0.63121
+Accuracy: 0.46114
+Time Taken for FS with one hot: 0.08574843406677246
+Time Taken for FS without one hot: 0.012253284454345703
+Time Taken for Fit and Predict: 4.129937648773193
+Time Taken for HPO: 335.50449895858765
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+18  lp_1            4                5            16           8                True     Accuracy             True  entropy_value_splitter        0.46354              0.63345              0.46354
+Best Hpo:       LP  max_runtime  tournament_size  height_limit  card_limit use_data_properties quality_func use_inverse_prop          value_splitter  quality_score  Validation_f1_Score  Validation_accuracy
+18  lp_1            4                5            16           8                True     Accuracy             True  entropy_value_splitter        0.46354              0.63345              0.46354
+best_hpo-maxr 4
+best_hpo-tournament_size 5
+best_hpo-card_limit 8
+best_hpo-maxr 4
+best_hpo-tournament_size 5
+best_hpo-card_limit 8
+best_hpo-height_limit 16
+best_hpo-use_data_properties True
+best_hpo-use_inverse_prop True
+best_hpo-quality_func Accuracy
+best_hpo-value_splitter entropy_value_splitter
+_______________________________________

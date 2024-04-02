@@ -1,0 +1,27 @@
+Learning Problem: lp_1
+F1 Score: 0.94118
+Accuracy: 0.93478
+Time Taken for FS with one hot: 368.1791112422943
+Time Taken for FS without one hot: 297.62780380249023
+Time Taken for Fit and Predict: 57.893773555755615
+Time Taken for HPO: 2656.8020491600037
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+2  lp_1           44                     3900162     1749948     Accuracy        0.97744              0.91667              0.91111
+Learning Problem: lp_1
+F1 Score: 0.96154
+Accuracy: 0.95652
+Time Taken for FS with one hot: 286.62092566490173
+Time Taken for FS without one hot: 280.67639780044556
+Time Taken for Fit and Predict: 108.69084453582764
+Time Taken for HPO: 2698.777663707733
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+3  lp_1          108                     6743945     5509552     Accuracy        0.94737              0.98039              0.97778
+Learning Problem: lp_1
+F1 Score: 0.94118
+Accuracy: 0.93478
+Time Taken for FS with one hot: 281.301819562912
+Time Taken for FS without one hot: 275.35166025161743
+Time Taken for Fit and Predict: 105.71653723716736
+Time Taken for HPO: 2055.2794382572174
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+1  lp_1          105                     5727064     6639673     Accuracy        0.96992              0.93878              0.93333

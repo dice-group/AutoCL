@@ -1,0 +1,76 @@
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ hasStructure.Non_ar_6c_ring) ⊔ (∃ cytogen_sce.{True})) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ hasStructure.Halide10) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((((∃ hasStructure.Non_ar_6c_ring) ⊔ (∃ cytogen_sce.{True})) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasAtom.Chlorine-93))) ⊔ (∃ hasStructure.Halide10))
+Count 1
+Selected Props ['drosophila_slrl', 'hasAtom', 'amesTestPositive', 'cytogen_sce', 'hasStructure']
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ salmonella.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 6
+Concepts (∃ drosophila_slrl.{True}) ⊔ ((∃ hasAtom.Hydrogen) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}))) ⊔ (∃ hasStructure.Halide)
+Count 1
+Length of Property: 6
+Concepts (∃ drosophila_slrl.{True}) ⊔ ((∃ hasAtom.Hydrogen) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}))) ⊔ (∃ hasStructure.Halide)
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ salmonella.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 6
+Concepts (∃ drosophila_slrl.{True}) ⊔ ((∃ hasAtom.Hydrogen) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}))) ⊔ (∃ hasStructure.Halide)
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ salmonella.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ salmonella.{True}))
+Count 1
+Length of Property: 6
+Concepts (∃ drosophila_slrl.{True}) ⊔ ((∃ hasAtom.Hydrogen) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{False}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}))) ⊔ (∃ hasStructure.Halide)
+Count 1
+Length of Property: 6
+Concepts (∃ drosophila_slrl.{True}) ⊔ ((∃ hasAtom.Hydrogen) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ salmonella.{True}) ⊔ (∃ mouse_lymph.{False}))) ⊔ (∃ hasStructure.Halide)
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ (Structure ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ mouse_lymph.{False}) ⊔ (∃ salmonella.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Selected Props ['amesTestPositive', 'hasAtom', 'drosophila_slrl', 'hasStructure', 'mouse_lymph', 'salmonella']
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ salmonella.{True}) ⊔ (∃ amesTestPositive.{True}))
+Count 1
+Length of Property: 6
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ salmonella.{True}) ⊔ (∃ amesTestPositive.{True}))
+Count 1
+Selected Props ['chromaberr', 'drosophila_slrl', 'hasStructure', 'amesTestPositive', 'salmonella', 'hasBond']
+Length of Property: 10
+Concepts (∃ micronuc_m.{False}) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts (∃ micronuc_m.{True}) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts ((∃ hasStructure.Halide) ⊓ (∃ hasAtom.(≤ 4 hasBond.Halide))) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ (Halide ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts ((∃ hasStructure.Halide) ⊓ (≥ 10 hasAtom.Tin-113)) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts ((∃ hasStructure.Halide) ⊓ (∃ hasAtom.(≤ 4 hasBond.(∃ mouse_lymph.{True})))) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ (Halide ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts ((∃ hasStructure.Halide) ⊓ (∃ hasAtom.(≤ 4 hasBond.(∃ mouse_lymph.{True})))) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts ((∃ hasStructure.Halide) ⊓ (∃ hasAtom.(≤ 4 hasBond.(∃ mouse_lymph.{False})))) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts ((∃ hasStructure.Halide) ⊓ (∃ hasAtom.(≤ 4 hasBond.(∃ amesTestPositive.{True})))) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts (∃ micronuc_m.{False}) ⊔ (∃ chromex.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ drosophila_slrl.{True}) ⊔ ((∃ hasAtom.Carbon) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ drosophila_rt.{False})))
+Count 1
+Length of Property: 10
+Concepts (∃ chromaberr.{False}) ⊔ (∃ drosophila_rt.{False}) ⊔ ((∃ hasAtom.Carbon) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ hasStructure.Halide)
+Count 1
+Selected Props ['hasStructure', 'hasBond', 'micronuc_m', 'drosophila_slrl', 'drosophila_rt', 'chromex', 'amesTestPositive', 'mouse_lymph', 'chromaberr', 'hasAtom']

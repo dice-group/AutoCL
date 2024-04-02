@@ -1,0 +1,48 @@
+Learning Problem: Aunt
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0xc995089	Female ⊓ ((∀ married.PersonWithASibling) ⊔ (∃ hasSibling.Parent))	Quality:1.0	Heuristic:0.212	Depth:9	H_exp:9	|RC|:0	|Indv.|:None
+F1 Score: 0.9
+Accuracy: 0.88889
+Time Taken for FS: 16.33741521835327
+Time Taken for Fit and Predict: 37.77709984779358
+Time Taken for HPO: 1015.1546006202698
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+4  Aunt          135                  5445904903  4446067204           F1            1.0              0.88889                0.875
+max runtime 135
+max_num_of_concepts_tested 5445904903
+iter_bound 4446067204
+quality_func F1
+Validation_f1_Score 0.88889
+Validation_accuracy 0.875
+_______________________________________
+Learning Problem: Aunt
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0xb77e8f9	((∃ hasSibling.Parent) ⊓ Daughter) ⊔ (∃ married.Brother)	Quality:0.96	Heuristic:0.06608	Depth:11	H_exp:10	|RC|:5	|Indv.|:None
+F1 Score: 0.94737
+Accuracy: 0.94444
+Time Taken for FS: 15.681714057922363
+Time Taken for Fit and Predict: 143.10315561294556
+Time Taken for HPO: 8922.616613388062
+Best Hpo:       LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+13  Aunt          143                  7997822509  6842382523           F1           0.96                  1.0                  1.0
+max runtime 143
+max_num_of_concepts_tested 7997822509
+iter_bound 6842382523
+quality_func F1
+Validation_f1_Score 1.0
+Validation_accuracy 1.0
+_______________________________________
+Learning Problem: Aunt
+Concept Generated After Feature Selection: <class 'ontolearn.search.OENode'> at 0x540c2c1	Female ⊓ ((∃ married.(∃ hasSibling.Parent)) ⊔ (∃ hasSibling.Parent))	Quality:1.0	Heuristic:0.00625	Depth:12	H_exp:11	|RC|:0	|Indv.|:None
+F1 Score: 1.0
+Accuracy: 1.0
+Time Taken for FS: 20.83698272705078
+Time Taken for Fit and Predict: 274.76376461982727
+Time Taken for HPO: 4715.510427474976
+Best Hpo:      LP  max_runtime  max_num_of_concepts_tested  iter_bound quality_func  quality_score  Validation_f1_Score  Validation_accuracy
+9  Aunt          282                  5569309664  3127493171     Accuracy            1.0                  1.0                  1.0
+max runtime 282
+max_num_of_concepts_tested 5569309664
+iter_bound 3127493171
+quality_func Accuracy
+Validation_f1_Score 1.0
+Validation_accuracy 1.0
+_______________________________________

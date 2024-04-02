@@ -1,0 +1,81 @@
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ ⊤
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasBiopsy.(∃ fibrosisLevel.xsd:integer[≥ 1])) ⊓ ⊤
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (≤ 5 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 2])) ⊓ ⊤
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasBiopsy.(∃ fibrosisLevel.xsd:integer[≥ 1])) ⊓ (∃ hasScreening.(∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3])) ⊓ ⊤
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasBiopsy.(∃ fibrosisLevel.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (∃ hasScreening.(∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4])) ⊓ ⊤
+Count 1
+Selected Props ['directBilirubinLevel', 'zincSulfateTurbidityTestLevel', 'fibrosisLevel', 'totalCholesterolLevel', 'hasScreening', 'hasBiopsy', 'totalProteinLevel']
+Length of Property: 5
+Concepts (≤ 5 hasScreening.(∃ albuminLevel.xsd:integer[≤ 1])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 5
+Concepts (≤ 6 hasScreening.(∃ albuminLevel.xsd:integer[≤ 1])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 5
+Concepts (≤ 5 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 5
+Concepts (≤ 2 hasScreening.(∃ totalProteinLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 5
+Concepts (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 6 hasScreening.(∃ albuminLevel.xsd:integer[≤ 1]))
+Count 1
+Length of Property: 5
+Concepts (≤ 5 hasScreening.(∃ totalCholesterolLevel.xsd:integer[≤ 2])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Selected Props ['directBilirubinLevel', 'hasScreening', 'totalProteinLevel', 'totalCholesterolLevel', 'albuminLevel']
+Length of Property: 9
+Concepts (∃ hasScreening.Screening) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (⊤ ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (∃ hasScreening.Screening) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ ((∃ hasScreening.(∀ age.AgeClass2)) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (∃ hasScreening.Screening) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ ((∀ hasScreening.(≤ 1 biopsyPerformedOnPatient.(∃ glutamic-pyruvicTransaminaseLevel.xsd:integer[≤ 1]))) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (∃ hasScreening.Screening) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (((∃ directBilirubinLevel.xsd:integer[≥ 2]) ⊔ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 1]))) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (((∃ hasBiopsy.⊤) ⊓ ((∃ directBilirubinLevel.xsd:integer[≥ 2]) ⊔ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])))) ⊔ (∃ hasScreening.(∃ albuminLevel.xsd:integer[≥ 2]))) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ ((∃ hasScreening.Screening) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (∃ hasScreening.Screening) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (((∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5])) ⊔ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 1]))) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (((∃ hasBiopsy.⊤) ⊓ (∃ hasScreening.(∀ age.AgeClass2))) ⊔ (∃ hasScreening.(∃ albuminLevel.xsd:integer[≥ 2]))) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (⊤ ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts ⊤ ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (((∃ directBilirubinLevel.xsd:integer[≥ 2]) ⊔ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (((∃ hasBiopsy.⊤) ⊓ (∃ hasScreening.(∃ glutamic-pyruvicTransaminaseLevel.xsd:integer[≥ 2]))) ⊔ (∃ hasScreening.(∃ albuminLevel.xsd:integer[≥ 2]))) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (((∃ directBilirubinLevel.xsd:integer[≥ 2]) ⊔ ⊤) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Length of Property: 9
+Concepts (∃ hasScreening.Screening) ⊓ ((∃ hasScreening.(∃ glutamicOxaloaceticTransaminaseLevel.xsd:integer[≥ 5])) ⊔ (((∃ directBilirubinLevel.xsd:integer[≥ 2]) ⊔ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))) ⊓ (∃ hasScreening.(∃ colisteraseActivityLevel.xsd:integer[≤ 5]))))
+Count 1
+Selected Props ['glutamicOxaloaceticTransaminaseLevel', 'colisteraseActivityLevel', 'albuminLevel', 'biopsyPerformedOnPatient', 'directBilirubinLevel', 'age', 'hasBiopsy', 'glutamic-pyruvicTransaminaseLevel', 'hasScreening']
