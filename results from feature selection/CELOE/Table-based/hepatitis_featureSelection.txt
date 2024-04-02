@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 0.55172
+Accuracy 0.73737
+selected feature ['hasScreening', 'directBilirubinLevel', 'colisteraseActivityLevel', 'totalProteinLevel', 'totalBilirubinLevel', 'duration']
+Time Taken for FS With One hot 6.933626413345337
+Time Taken Without one hot 6.184807062149048
+Time Taken For Fit and Predict 5.431178331375122
+--------str_target_concept----------- lp_1
+F1 Score 0.71429
+Accuracy 0.75758
+selected feature ['hasScreening', 'albuminLevel', 'glutamicOxaloaceticTransaminaseLevel', 'totalBilirubinLevel', 'zincSulfateTurbidityTestLevel', 'duration']
+Time Taken for FS With One hot 6.83246636390686
+Time Taken Without one hot 6.09194278717041
+Time Taken For Fit and Predict 5.4648118019104
+--------str_target_concept----------- lp_1
+F1 Score 0.60606
+Accuracy 0.60606
+selected feature ['hasScreening', 'albuminLevel', 'totalBilirubinLevel', 'duration', 'directBilirubinLevel', 'thymolTurbidityTestLevel']
+Time Taken for FS With One hot 6.80414891242981
+Time Taken Without one hot 6.055595397949219
+Time Taken For Fit and Predict 5.441400051116943

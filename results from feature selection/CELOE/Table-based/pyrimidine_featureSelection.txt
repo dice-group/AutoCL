@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 0.88889
+Accuracy 0.875
+selected feature ['p3_size', 'p2_h_donor', 'p1_size', 'p3_polar', 'p3_sigma']
+Time Taken for FS With One hot 0.13266563415527344
+Time Taken Without one hot 206.092387676239
+Time Taken For Fit and Predict 4.661997318267822
+--------str_target_concept----------- lp_1
+F1 Score 0.88889
+Accuracy 0.875
+selected feature ['p3_sigma', 'p2_size', 'p3_polar', 'p3_pi_acceptor', 'p3_pi_donor']
+Time Taken for FS With One hot 0.13348150253295898
+Time Taken Without one hot 205.27401065826416
+Time Taken For Fit and Predict 4.634255886077881
+--------str_target_concept----------- lp_1
+F1 Score 0.88889
+Accuracy 0.875
+selected feature ['p1_size', 'p3_polar', 'p3_sigma', 'p3_pi_donor', 'p3_pi_acceptor']
+Time Taken for FS With One hot 0.13390898704528809
+Time Taken Without one hot 206.33343887329102
+Time Taken For Fit and Predict 4.588763952255249

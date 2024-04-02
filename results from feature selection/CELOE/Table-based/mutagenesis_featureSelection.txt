@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_4
+F1 Score 0
+Accuracy 0.71429
+selected feature ['hasStructure', 'hasBond']
+Time Taken for FS With One hot 190.28025460243225
+Time Taken Without one hot 187.84870266914368
+Time Taken For Fit and Predict 5.682885408401489
+--------str_target_concept----------- lp_4
+F1 Score 0.66667
+Accuracy 0.85714
+selected feature ['hasBond', 'hasStructure']
+Time Taken for FS With One hot 189.57810521125793
+Time Taken Without one hot 187.07350420951843
+Time Taken For Fit and Predict 5.683369874954224
+--------str_target_concept----------- lp_4
+F1 Score 0
+Accuracy 0.71429
+selected feature ['hasBond', 'hasStructure']
+Time Taken for FS With One hot 189.09698152542114
+Time Taken Without one hot 186.4264314174652
+Time Taken For Fit and Predict 5.680530071258545

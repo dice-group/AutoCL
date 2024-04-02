@@ -1,0 +1,21 @@
+--------str_target_concept----------- Aunt
+F1 Score 0.69565
+Accuracy 0.5625
+selected feature ['married', 'hasParent', 'hasChild', 'hasSibling']
+Time Taken for FS With One hot 0.26610612869262695
+Time Taken Without one hot 0.19034218788146973
+Time Taken For Fit and Predict 5.049249172210693
+--------str_target_concept----------- Aunt
+F1 Score 0.8
+Accuracy 0.75
+selected feature ['hasParent', 'hasSibling', 'married', 'hasChild']
+Time Taken for FS With One hot 0.2656514644622803
+Time Taken Without one hot 0.19039487838745117
+Time Taken For Fit and Predict 5.0493762493133545
+--------str_target_concept----------- Aunt
+F1 Score 0.66667
+Accuracy 0.6875
+selected feature ['hasParent', 'hasChild', 'married', 'hasSibling']
+Time Taken for FS With One hot 0.2650465965270996
+Time Taken Without one hot 0.18975329399108887
+Time Taken For Fit and Predict 5.045544862747192

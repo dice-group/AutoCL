@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 0.59649
+Accuracy 0.61017
+selected feature ['hasStructure', 'micronuc_f', 'amesTestPositive', 'salmonella_reduc', 'micronuc_m', 'drosophila_slrl']
+Time Taken for FS With One hot 250.02491664886475
+Time Taken Without one hot 246.31859517097473
+Time Taken For Fit and Predict 5.614403009414673
+--------str_target_concept----------- lp_1
+F1 Score 0.72131
+Accuracy 0.71186
+selected feature ['hasStructure', 'micronuc_m', 'micronuc_f', 'salmonella_reduc', 'drosophila_slrl', 'amesTestPositive']
+Time Taken for FS With One hot 250.6359601020813
+Time Taken Without one hot 246.89576816558838
+Time Taken For Fit and Predict 5.602941036224365
+--------str_target_concept----------- lp_1
+F1 Score 0.60714
+Accuracy 0.62712
+selected feature ['hasStructure', 'micronuc_f', 'amesTestPositive', 'drosophila_slrl', 'micronuc_m', 'salmonella_reduc']
+Time Taken for FS With One hot 251.95552515983582
+Time Taken Without one hot 248.19454979896545
+Time Taken For Fit and Predict 5.603496313095093
