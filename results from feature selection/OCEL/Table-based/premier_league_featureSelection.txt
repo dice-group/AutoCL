@@ -1,0 +1,21 @@
+--------str_target_concept----------- lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['has_action', 'tackle_efficiency', 'unsuccessful_passes_in_final_third', 'ground_duels_lost', 'shot_efficiency', 'minutes_played', 'shot_winning_goal_in_match', 'was_substituted_off', 'was_substituted_on', 'shot_first_goal_in_match', 'team_clean_sheet']
+Time Taken for FS With One hot 399.63204646110535
+Time Taken Without one hot 189.18844747543335
+Time Taken For Fit and Predict 625.6632533073425
+--------str_target_concept----------- lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['has_action', 'unsuccessful_dribbles', 'dribble_efficiency', 'fouls_conceded_excl_handballs_pens', 'minutes_played', 'shot_efficiency', 'was_substituted_off', 'team_clean_sheet', 'shot_first_goal_in_match', 'was_substituted_on', 'shot_winning_goal_in_match']
+Time Taken for FS With One hot 389.9741806983948
+Time Taken Without one hot 155.0578646659851
+Time Taken For Fit and Predict 123.74186396598816
+--------str_target_concept----------- lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['has_action', 'dribble_efficiency', 'minutes_played', 'shot_efficiency', 'fouls_conceded_excl_handballs_pens', 'tackle_efficiency', 'shot_first_goal_in_match', 'shot_winning_goal_in_match', 'team_clean_sheet', 'was_substituted_off', 'was_substituted_on']
+Time Taken for FS With One hot 395.9131393432617
+Time Taken Without one hot 158.47336769104004
+Time Taken For Fit and Predict 624.6009154319763
