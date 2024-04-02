@@ -1,0 +1,105 @@
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ ((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ amesTestPositive.{True}) ⊔ ((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ (∃ chromaberr.{False}) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ ((∃ drosophila_slrl.{True}) ⊓ (∃ drosophila_slrl.{True})) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ Halide ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromaberr.{False}) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ amesTestPositive.{True}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ (∃ hasStructure.Halide) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasStructure.(∃ hasStructure.Halide)) ⊔ (∃ amesTestPositive.{True}) ⊔ ((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromaberr.{False}) ⊔ (∃ salmonella_n.{False}))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ Halide ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromaberr.{False}) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide))
+Count 1
+Length of Property: 7
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ drosophila_slrl.{True}) ⊓ (∃ mouse_lymph.{True})) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ salmonella_n.{False}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromaberr.{False}) ⊔ (∃ salmonella_n.{False}))
+Count 1
+Selected Props ['amesTestPositive', 'mouse_lymph', 'salmonella', 'drosophila_slrl', 'salmonella_n', 'hasStructure', 'chromaberr']
+str_target_concept lp_1
+F1 Score 0.64789
+Accuracy 0.57627
+selected feature ['amesTestPositive', 'mouse_lymph', 'salmonella', 'drosophila_slrl', 'salmonella_n', 'hasStructure', 'chromaberr']
+Time Taken for FS 6.578800201416016
+Time Taken for fit and predict 608.2995328903198
+_________________________________________________
+Length of Property: 5
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.Bond-1) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ hasStructure.Halide) ⊔ ((∃ hasStructure.⊤) ⊓ ((∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))))
+Count 1
+Length of Property: 5
+Concepts (∃ hasBond.Bond-1) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromaberr.{False}) ⊔ Bond-1)
+Count 1
+Length of Property: 5
+Concepts (∃ hasBond.Bond-1) ⊓ ⊤ ⊓ ((∃ chromaberr.{False}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.⊤) ⊓ ((∃ hasStructure.Halide) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasBond.Bond-1) ⊓ (Halide ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ amesTestPositive.{True}))
+Count 1
+Selected Props ['hasBond', 'drosophila_slrl', 'chromaberr', 'hasStructure', 'amesTestPositive']
+str_target_concept lp_1
+F1 Score 0.54545
+Accuracy 0.57627
+selected feature ['hasBond', 'drosophila_slrl', 'chromaberr', 'hasStructure', 'amesTestPositive']
+Time Taken for FS 6.59200119972229
+Time Taken for fit and predict 608.8461413383484
+_________________________________________________
+Length of Property: 8
+Concepts ((∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ Halide10 ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False}) ⊔ (∃ hasStructure.Halide10)) ⊓ ((∃ hasAtom.Hydrogen-3) ⊔ (∃ hasStructure.⊤))
+Count 1
+Length of Property: 8
+Concepts ((∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ hasStructure.Halide10) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_rt.{False})) ⊓ ((∃ charge.xsd:double[≤ 0.213]) ⊔ (∃ hasStructure.⊤))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ Halide10 ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide10) ⊔ (∃ chromaberr.{True}))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ hasStructure.Halide10))
+Count 1
+Length of Property: 8
+Concepts ((∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False}) ⊔ (∃ hasStructure.Halide10)) ⊓ (∃ hasStructure.⊤)
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide10) ⊔ (∃ chromaberr.{True}))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ hasStructure.Halide10))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromex.{True}) ⊔ (∃ hasStructure.Halide10) ⊔ (∃ chromaberr.{True}))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ hasStructure.Halide10))
+Count 1
+Length of Property: 8
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ drosophila_rt.{False}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ cytogen_ca.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasStructure.Halide10) ⊔ (∃ chromaberr.{True}))
+Count 1
+Selected Props ['amesTestPositive', 'drosophila_rt', 'hasStructure', 'chromaberr', 'chromex', 'hasAtom', 'charge', 'cytogen_ca']
+str_target_concept lp_1
+F1 Score 0.75758
+Accuracy 0.72881
+selected feature ['amesTestPositive', 'drosophila_rt', 'hasStructure', 'chromaberr', 'chromex', 'hasAtom', 'charge', 'cytogen_ca']
+Time Taken for FS 6.778749704360962
+Time Taken for fit and predict 681.0996441841125
+_________________________________________________

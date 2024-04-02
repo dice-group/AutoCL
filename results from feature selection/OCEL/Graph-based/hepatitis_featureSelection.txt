@@ -1,0 +1,129 @@
+Length of Property: 5
+Concepts (≤ 6 hasScreening.(∃ zincSulfateTurbidityTestLevel.xsd:integer[≥ 4])) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 5
+Concepts (≤ 6 hasScreening.(∃ thymolTurbidityTestLevel.xsd:integer[≥ 5])) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 5
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2])) ⊓ (≤ 6 hasScreening.(∃ thymolTurbidityTestLevel.xsd:integer[≥ 5]))
+Count 1
+Selected Props ['directBilirubinLevel', 'zincSulfateTurbidityTestLevel', 'totalCholesterolLevel', 'thymolTurbidityTestLevel', 'hasScreening']
+str_target_concept lp_1
+F1 Score 0.66667
+Accuracy 0.76768
+selected feature ['directBilirubinLevel', 'zincSulfateTurbidityTestLevel', 'totalCholesterolLevel', 'thymolTurbidityTestLevel', 'hasScreening']
+Time Taken for FS 6.042406797409058
+Time Taken for fit and predict 611.5168008804321
+_________________________________________________
+Length of Property: 7
+Concepts Male ⊓ (¬(∃ duration.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 7
+Concepts Male ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 7
+Concepts Male ⊓ (∃ hasBiopsy.Biopsy) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 4])) ⊓ (∃ hasBiopsy.Biopsy)
+Count 1
+Length of Property: 7
+Concepts Male ⊓ (∃ hasBiopsy.⊤) ⊓ (∃ hasBiopsy.Biopsy) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 4]))
+Count 1
+Length of Property: 7
+Concepts Male ⊓ (∃ hasBiopsy.Biopsy) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 3])) ⊓ (∃ hasScreening.Screening)
+Count 1
+Length of Property: 7
+Concepts Male ⊓ (∃ hasScreening.(∃ albuminLevel.xsd:integer[≥ 2])) ⊓ (∃ hasBiopsy.⊤) ⊓ (∃ hasScreening.(∃ directBilirubinLevel.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 7
+Concepts Patient ⊓ (∃ hasBiopsy.Biopsy) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 4]))
+Count 1
+Length of Property: 7
+Concepts Patient ⊓ (∃ hasBiopsy.⊤) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 4]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasBiopsy.Biopsy) ⊓ (∃ hasBiopsy.Biopsy) ⊓ (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 4]))
+Count 1
+Length of Property: 7
+Concepts (∃ hasScreening.(∃ totalCholesterolLevel.xsd:integer[≥ 4])) ⊓ (∃ hasBiopsy.⊤) ⊓ ((∃ hasBiopsy.Biopsy) ⊔ (∃ hasScreening.(∃ thymolTurbidityTestLevel.xsd:integer[≥ 5])))
+Count 1
+Selected Props ['hasScreening', 'thymolTurbidityTestLevel', 'totalCholesterolLevel', 'directBilirubinLevel', 'albuminLevel', 'duration', 'hasBiopsy']
+str_target_concept lp_1
+F1 Score 0.80392
+Accuracy 0.79798
+selected feature ['hasScreening', 'thymolTurbidityTestLevel', 'totalCholesterolLevel', 'directBilirubinLevel', 'albuminLevel', 'duration', 'hasBiopsy']
+Time Taken for FS 6.91395115852356
+Time Taken for fit and predict 612.1097650527954
+_________________________________________________
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 3]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ totalCholesterolLevel.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 5]) ⊔ (∃ colisteraseActivityLevel.xsd:integer[≤ 5]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 5]))
+Count 1
+Length of Property: 5
+Concepts ∀ hasScreening.((∃ colisteraseActivityLevel.xsd:integer[≤ 5]) ⊔ (∃ directBilirubinLevel.xsd:integer[≥ 2]) ⊔ (∃ zincSulfateTurbidityTestLevel.xsd:integer[≤ 4]))
+Count 1
+Selected Props ['directBilirubinLevel', 'colisteraseActivityLevel', 'hasScreening', 'totalCholesterolLevel', 'zincSulfateTurbidityTestLevel']
+str_target_concept lp_1
+F1 Score 0.63889
+Accuracy 0.73737
+selected feature ['directBilirubinLevel', 'colisteraseActivityLevel', 'hasScreening', 'totalCholesterolLevel', 'zincSulfateTurbidityTestLevel']
+Time Taken for FS 13.132195711135864
+Time Taken for fit and predict 619.2823960781097
+_________________________________________________

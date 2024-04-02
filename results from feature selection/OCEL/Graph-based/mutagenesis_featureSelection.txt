@@ -1,0 +1,126 @@
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (Nitrogen ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ⊤ ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (Ring_size_5 ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.Bond-1) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ logp.xsd:double[≤ 1.195]) ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.RingStructure) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False}) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts ⊤ ⊓ ((∃ act.xsd:double[≥ 0.04]) ⊔ (∃ logp.xsd:double[≤ 1.195]))
+Count 1
+Selected Props ['hasFifeExamplesOfAcenthrylenes', 'hasStructure', 'logp', 'hasBond', 'act']
+str_target_concept lp_4
+F1 Score 0.66667
+Accuracy 0.85714
+selected feature ['hasFifeExamplesOfAcenthrylenes', 'hasStructure', 'logp', 'hasBond', 'act']
+Time Taken for FS 1.5144283771514893
+Time Taken for fit and predict 605.5058517456055
+_________________________________________________
+Length of Property: 6
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ⊤ ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ ⊤
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False}) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasStructure.Nitro)
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ (∀ inStructure.Nitrogen-35) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasAtom.⊤)
+Count 1
+Length of Property: 6
+Concepts Compound ⊓ ((∃ logp.xsd:double[≤ 1.195]) ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Selected Props ['logp', 'hasAtom', 'inStructure', 'hasFifeExamplesOfAcenthrylenes', 'hasStructure', 'act']
+str_target_concept lp_4
+F1 Score 0
+Accuracy 0.71429
+selected feature ['logp', 'hasAtom', 'inStructure', 'hasFifeExamplesOfAcenthrylenes', 'hasStructure', 'act']
+Time Taken for FS 1.4987363815307617
+Time Taken for fit and predict 607.20920753479
+_________________________________________________
+Length of Property: 5
+Concepts ∃ act.xsd:double[≥ 0.04]
+Count 1
+Length of Property: 5
+Concepts ∃ act.xsd:double[≥ 0.39]
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.39])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39]) ⊓ ⊤
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39]) ⊓ (∃ hasAtom.Hydrogen-3)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.⊤) ⊓ (∃ act.xsd:double[≥ 0.39])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasAtom.⊤) ⊓ (∃ act.xsd:double[≥ 0.39])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39]) ⊓ (∃ hasBond.Bond)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39]) ⊓ (∃ hasStructure.⊤)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.Bond) ⊓ (∃ act.xsd:double[≥ 0.39])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.39]) ⊓ (∃ hasBond.⊤)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False}) ⊓ (∃ act.xsd:double[≥ 0.39])
+Count 1
+Selected Props ['act', 'hasBond', 'hasStructure', 'hasAtom', 'hasFifeExamplesOfAcenthrylenes']
+str_target_concept lp_4
+F1 Score 0.66667
+Accuracy 0.85714
+selected feature ['act', 'hasBond', 'hasStructure', 'hasAtom', 'hasFifeExamplesOfAcenthrylenes']
+Time Taken for FS 3.053323745727539
+Time Taken for fit and predict 608.1913528442383
+_________________________________________________

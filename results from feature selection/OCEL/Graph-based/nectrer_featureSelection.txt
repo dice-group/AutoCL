@@ -1,0 +1,114 @@
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 10])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ F6_OtherKeyFeatures.xsd:integer[≥ 0]) ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045]) ⊓ (∃ F1_Ring.xsd:integer[≥ 1])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12]) ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Selected Props ['LOG_ER_RBA', 'ActivityScore_NCTRER', 'F1_Ring', 'ER_RBA', 'F6_OtherKeyFeatures']
+str_target_concept lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['LOG_ER_RBA', 'ActivityScore_NCTRER', 'F1_Ring', 'ER_RBA', 'F6_OtherKeyFeatures']
+Time Taken for FS 3.867461681365967
+Time Taken for fit and predict 737.7224342823029
+_________________________________________________
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 5
+Concepts (∃ ActivityScore_NCTRER.xsd:integer[≥ 10]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12]) ⊓ Molecule
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ ⊤ ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ number_of_atom_lists.xsd:integer[≥ 0]) ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 5
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12]) ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Selected Props ['ER_RBA', 'atom', 'LOG_ER_RBA', 'ActivityScore_NCTRER', 'number_of_atom_lists']
+str_target_concept lp_1
+F1 Score 1.0
+Accuracy 1.0
+selected feature ['ER_RBA', 'atom', 'LOG_ER_RBA', 'ActivityScore_NCTRER', 'number_of_atom_lists']
+Time Taken for FS 63.61960482597351
+Time Taken for fit and predict 813.1414766311646
+_________________________________________________
+Length of Property: 6
+Concepts ∃ LOG_ER_RBA.xsd:double[≥ -5002.045]
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.085])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12]) ⊓ Molecule
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ ⊤ ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045]) ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ LOG_ER_RBA.xsd:double[≥ -5002.045]) ⊓ (∃ F3_PhenolicRing.xsd:integer[≥ 0])
+Count 1
+Length of Property: 6
+Concepts Molecule ⊓ (∃ ActivityScore_NCTRER.xsd:integer[≥ 12]) ⊓ (∃ F4_Heteroatom.xsd:integer[≥ 0])
+Count 1
+Selected Props ['ActivityScore_NCTRER', 'ER_RBA', 'F3_PhenolicRing', 'F4_Heteroatom', 'atom', 'LOG_ER_RBA']
+str_target_concept lp_1
+F1 Score 0.98039
+Accuracy 0.97727
+selected feature ['ActivityScore_NCTRER', 'ER_RBA', 'F3_PhenolicRing', 'F4_Heteroatom', 'atom', 'LOG_ER_RBA']
+Time Taken for FS 51.33809208869934
+Time Taken for fit and predict 837.2034430503845
+_________________________________________________
