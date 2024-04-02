@@ -1,0 +1,132 @@
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 61.5]
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.irregular
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.obscured
+Count 1
+Length of Property: 5
+Concepts ¬lobular
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.Density
+Count 1
+Length of Property: 5
+Concepts ¬microlobulated
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.(∃ hasShape.(∃ hasShape.circumscribed))
+Count 1
+Length of Property: 5
+Concepts ≤ 4 hasShape.(∀ hasMargin.high)
+Count 1
+Length of Property: 5
+Concepts ≤ 6 hasShape.(≥ 6 hasDensity.Patient)
+Count 1
+Selected Props ['hasDensity', 'hasAge', 'hasBiRads', 'hasMargin', 'hasShape']
+str_target_concept lp_1
+F1 Score: 0.75294
+Accuracy: 0.78125
+selected feature: ['hasDensity', 'hasAge', 'hasBiRads', 'hasMargin', 'hasShape']
+Time Taken for FS: 7.209274768829346
+Time Taken for fit and predict: 600.3343167304993
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.circumscribed
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.Measure
+Count 1
+Length of Property: 5
+Concepts ¬Shape
+Count 1
+Length of Property: 5
+Concepts ¬high
+Count 1
+Length of Property: 5
+Concepts ≤ 2 hasDensity.⊥
+Count 1
+Length of Property: 5
+Concepts ≤ 8 hasShape.⊥
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.(∃ hasDensity.spiculated)
+Count 1
+Length of Property: 5
+Concepts ≤ 2 hasDensity.(∃ hasBiRads.xsd:double[≤ 4.5])
+Count 1
+Length of Property: 5
+Concepts ≤ 3 hasMargin.(¬circumscribed)
+Count 1
+Length of Property: 5
+Concepts ∀ hasDensity.(lobular ⊔ ill-defined)
+Count 1
+Length of Property: 5
+Concepts ≤ 9 hasMargin.(¬(∃ hasAge.xsd:double[≤ 61.5]))
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≤ 61.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≤ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasMargin.microlobulated
+Count 1
+Length of Property: 5
+Concepts ∃ hasDensity.microlobulated
+Count 1
+Length of Property: 5
+Concepts ∃ hasDensity.⊤
+Count 1
+Length of Property: 5
+Concepts ∃ hasDensity.spiculated
+Count 1
+Selected Props ['hasAge', 'hasShape', 'hasDensity', 'hasMargin', 'hasBiRads']
+str_target_concept lp_1
+F1 Score: 0.76301
+Accuracy: 0.78646
+selected feature: ['hasAge', 'hasShape', 'hasDensity', 'hasMargin', 'hasBiRads']
+Time Taken for FS: 7.262057065963745
+Time Taken for fit and predict: 600.3593184947968
+Length of Property: 5
+Concepts ∃ hasBiRads.xsd:double[≥ 4.5]
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 64.5]
+Count 1
+Length of Property: 5
+Concepts (∃ hasDensity.(∃ hasMargin.irregular)) ⊔ (∃ hasAge.xsd:double[≥ 64.5])
+Count 1
+Length of Property: 5
+Concepts ∃ hasAge.xsd:double[≥ 49.5]
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.oval
+Count 1
+Length of Property: 5
+Concepts ¬Density
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.Measure
+Count 1
+Length of Property: 5
+Concepts ∀ hasShape.irregular
+Count 1
+Length of Property: 5
+Concepts ∀ hasMargin.oval
+Count 1
+Selected Props ['hasMargin', 'hasDensity', 'hasShape', 'hasBiRads', 'hasAge']
+str_target_concept lp_1
+F1 Score: 0.8284
+Accuracy: 0.84896
+selected feature: ['hasMargin', 'hasDensity', 'hasShape', 'hasBiRads', 'hasAge']
+Time Taken for FS: 7.149531364440918
+Time Taken for fit and predict: 600.3471169471741

@@ -1,0 +1,123 @@
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.175])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.035])
+Count 1
+Length of Property: 5
+Concepts (∃ act.xsd:double[≥ 0.175]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.175]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.175])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.175]) ⊓ ⊤
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ act.xsd:double[≥ 0.175]) ⊔ Hydrogen-3)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasAtom.Nitrogen) ⊓ (∃ act.xsd:double[≥ 0.175])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ act.xsd:double[≥ 0.175]) ⊔ (∃ logp.xsd:double[≤ 1.295]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ logp.xsd:double[≤ 1.295]) ⊔ (∃ act.xsd:double[≥ 0.175]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False}) ⊓ (∃ act.xsd:double[≥ 0.175])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.RingStructure) ⊓ (∃ act.xsd:double[≥ 0.175])
+Count 1
+Selected Props ['hasFifeExamplesOfAcenthrylenes', 'hasAtom', 'act', 'logp', 'hasStructure']
+str_target_concept lp_4
+F1 Score: 0.66667
+Accuracy: 0.85714
+selected feature: ['hasFifeExamplesOfAcenthrylenes', 'hasAtom', 'act', 'logp', 'hasStructure']
+Time Taken for FS: 2.249602794647217
+Time Taken for fit and predict: 601.1092388629913
+Length of Property: 5
+Concepts ∃ act.xsd:double[≥ 0.04]
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ ⊤
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (Carbon ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasAtom.⊤)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasAtom.Atom) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.RingStructure) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasBond.Bond)
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False}) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Selected Props ['hasBond', 'hasFifeExamplesOfAcenthrylenes', 'hasStructure', 'hasAtom', 'act']
+str_target_concept lp_4
+F1 Score: 0.66667
+Accuracy: 0.85714
+selected feature: ['hasBond', 'hasFifeExamplesOfAcenthrylenes', 'hasStructure', 'hasAtom', 'act']
+Time Taken for FS: 2.234086513519287
+Time Taken for fit and predict: 601.2826449871063
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.035])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ⊤ ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ Compound ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (Hetero_aromatic_5_ring ⊔ (∃ act.xsd:double[≥ 0.04]))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ Compound
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ act.xsd:double[≥ 0.04]) ⊔ RingStructure)
+Count 1
+Length of Property: 5
+Concepts (∀ inBond.(∃ hasAtom.Iodine)) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasBond.Bond-1) ⊓ (∃ act.xsd:double[≥ 0.04])
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ act.xsd:double[≥ 0.04]) ⊓ (∃ hasFifeExamplesOfAcenthrylenes.{False})
+Count 1
+Selected Props ['hasAtom', 'hasBond', 'hasFifeExamplesOfAcenthrylenes', 'act', 'inBond']
+str_target_concept lp_4
+F1 Score: 0.66667
+Accuracy: 0.85714
+selected feature: ['hasAtom', 'hasBond', 'hasFifeExamplesOfAcenthrylenes', 'act', 'inBond']
+Time Taken for FS: 1.416689395904541
+Time Taken for fit and predict: 601.6922919750214

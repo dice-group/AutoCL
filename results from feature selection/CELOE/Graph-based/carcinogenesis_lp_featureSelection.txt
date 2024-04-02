@@ -1,0 +1,90 @@
+Length of Property: 5
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasStructure.Halide) ⊔ ((∃ hasAtom.Carbon) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasAtom.Carbon) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ hasAtom.Carbon) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ ((∃ hasAtom.Carbon) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ drosophila_slrl.{True}))) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 5
+Concepts (∃ hasStructure.Structure) ⊓ (((∃ hasAtom.Carbon) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ hasStructure.Halide) ⊔ ((∃ hasAtom.Carbon) ⊓ (∃ chromaberr.{False})) ⊔ (∃ drosophila_slrl.{True}))) ⊔ (∃ chromaberr.{False}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ ((∃ hasStructure.Halide) ⊔ ((∃ hasAtom.Carbon) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (((∃ hasAtom.Carbon) ⊓ (∃ amesTestPositive.{True})) ⊔ (∃ hasStructure.Halide) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}))
+Count 1
+Selected Props ['amesTestPositive', 'drosophila_slrl', 'hasAtom', 'chromaberr', 'hasStructure']
+str_target_concept lp_1
+F1 Score: 0.6875
+Accuracy: 0.66102
+selected feature: ['amesTestPositive', 'drosophila_slrl', 'hasAtom', 'chromaberr', 'hasStructure']
+Time Taken for FS: 6.3440163135528564
+Time Taken for fit and predict: 601.1878170967102
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ hasAtom.Chlorine-93) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.⊤) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Length of Property: 6
+Concepts (∃ hasStructure.Structure) ⊓ ((∃ amesTestPositive.{True}) ⊔ (∃ drosophila_slrl.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ hasAtom.Chlorine-93))
+Count 1
+Selected Props ['amesTestPositive', 'chromex', 'hasStructure', 'hasAtom', 'drosophila_slrl', 'chromaberr']
+str_target_concept lp_1
+F1 Score: 0.68354
+Accuracy: 0.57627
+selected feature: ['amesTestPositive', 'chromex', 'hasStructure', 'hasAtom', 'drosophila_slrl', 'chromaberr']
+Time Taken for FS: 6.292706251144409
+Time Taken for fit and predict: 601.0456371307373
+Length of Property: 5
+Concepts ((∃ hasStructure.Ar_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ chromex.{False})) ⊓ (∃ hasStructure.Structure)
+Count 1
+Length of Property: 5
+Concepts ((∃ hasStructure.Ar_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (Ar_halide ⊔ (∃ hasStructure.Structure))
+Count 1
+Length of Property: 5
+Concepts ((∃ hasStructure.Ar_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (Structure ⊔ (∃ hasStructure.Structure))
+Count 1
+Length of Property: 5
+Concepts Compound ⊓ (∃ hasStructure.⊤) ⊓ ((∃ chromaberr.{False}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}))
+Count 1
+Length of Property: 5
+Concepts ((∃ hasStructure.Ar_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (Structure ⊔ (∃ hasStructure.⊤))
+Count 1
+Length of Property: 5
+Concepts ((((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False})) ⊓ (∃ hasBond.Bond-1)) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasStructure.⊤)
+Count 1
+Length of Property: 5
+Concepts ((∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasStructure.Structure) ⊓ (∃ hasBond.⊤)
+Count 1
+Length of Property: 5
+Concepts ((∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{False}) ⊔ (∃ hasStructure.Halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False})) ⊓ (∃ hasStructure.⊤)
+Count 1
+Length of Property: 5
+Concepts ((∃ hasStructure.Ar_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromex.{False}) ⊔ (∃ chromaberr.{False})) ⊓ (∃ hasStructure.Structure) ⊓ (∃ hasBond.⊤)
+Count 1
+Length of Property: 5
+Concepts ((∃ hasStructure.Ar_halide) ⊔ (∃ amesTestPositive.{True}) ⊔ (∃ chromaberr.{True}) ⊔ (∃ chromaberr.{False})) ⊓ ((∃ hasStructure.Ar_halide) ⊔ (∃ hasStructure.Structure))
+Count 1
+Selected Props ['amesTestPositive', 'hasStructure', 'hasBond', 'chromaberr', 'chromex']
+str_target_concept lp_1
+F1 Score: 0.67797
+Accuracy: 0.67797
+selected feature: ['amesTestPositive', 'hasStructure', 'hasBond', 'chromaberr', 'chromex']
+Time Taken for FS: 6.711644887924194
+Time Taken for fit and predict: 600.9881508350372

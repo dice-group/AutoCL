@@ -1,0 +1,111 @@
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ shots_on_target_conceded_outside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1])) ⊓ (∃ has_action.Action)
+Count 1
+Length of Property: 10
+Concepts (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1])) ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 0]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ Player ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.Action) ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ right_foot_blocked_shots.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ goals_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1])) ⊓ (∃ has_action.(∃ total_fouls_won.xsd:integer[≥ 0]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1])) ⊓ (∃ has_action.(∃ right_foot_goals.xsd:integer[≤ 3]))
+Count 1
+Length of Property: 10
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 9]))
+Count 1
+Selected Props ['shots_on_target_conceded', 'right_foot_goals', 'right_foot_blocked_shots', 'goalkeeper_successful_distribution', 'blocked_shots', 'shots_on_target_conceded_outside_box', 'has_action', 'total_fouls_won', 'goals_conceded_inside_box', 'goals_conceded']
+str_target_concept lp_1
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['shots_on_target_conceded', 'right_foot_goals', 'right_foot_blocked_shots', 'goalkeeper_successful_distribution', 'blocked_shots', 'shots_on_target_conceded_outside_box', 'has_action', 'total_fouls_won', 'goals_conceded_inside_box', 'goals_conceded']
+Time Taken for FS: 98.13039088249207
+Time Taken for fit and predict: 7.362522125244141
+Length of Property: 13
+Concepts Player ⊓ (∃ has_action.(∃ saves_made.xsd:integer[≥ 2]))
+Count 1
+Length of Property: 13
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_unsuccessful_distribution.xsd:integer[≥ 3]))
+Count 1
+Length of Property: 13
+Concepts Player ⊓ (∃ has_action.(∃ saves_made.xsd:integer[≥ 2])) ⊓ (∃ has_action.⊤)
+Count 1
+Length of Property: 13
+Concepts Player ⊓ ((∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 3])) ⊔ (∃ unsuccessful_long_passes.xsd:integer[≥ 11]))
+Count 1
+Length of Property: 13
+Concepts ⊤ ⊓ (∃ has_action.(∃ saves_made.xsd:integer[≥ 2])) ⊓ (∃ has_action.(∃ key_free_kick.xsd:integer[≥ 0]))
+Count 1
+Length of Property: 13
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 9]))
+Count 1
+Length of Property: 13
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 9])) ⊓ (∃ has_action.(∃ yellow_cards.xsd:integer[≤ 1]))
+Count 1
+Length of Property: 13
+Concepts (∃ has_action.(∃ interceptions.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ pass_left.xsd:integer[≤ 5])) ⊓ (∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 4]))
+Count 1
+Length of Property: 13
+Concepts (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 11])) ⊓ (∃ has_action.Action)
+Count 1
+Length of Property: 13
+Concepts Player ⊓ (∃ has_action.(∃ goalkeeper_successful_distribution.xsd:integer[≥ 11])) ⊓ (∃ has_action.(∃ other_blocked_shots.xsd:integer[≥ 0]))
+Count 1
+Selected Props ['other_blocked_shots', 'successful_long_passes', 'goalkeeper_unsuccessful_distribution', 'unsuccessful_long_passes', 'shots_on_target_conceded', 'blocked_shots', 'saves_made', 'has_action', 'yellow_cards', 'pass_left', 'key_free_kick', 'interceptions', 'goalkeeper_successful_distribution']
+str_target_concept lp_1
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['other_blocked_shots', 'successful_long_passes', 'goalkeeper_unsuccessful_distribution', 'unsuccessful_long_passes', 'shots_on_target_conceded', 'blocked_shots', 'saves_made', 'has_action', 'yellow_cards', 'pass_left', 'key_free_kick', 'interceptions', 'goalkeeper_successful_distribution']
+Time Taken for FS: 98.18545413017273
+Time Taken for fit and predict: 10.795344114303589
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.(∃ big_chances_faced.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1])) ⊓ (∃ has_action.Action)
+Count 1
+Length of Property: 12
+Concepts Player ⊓ Player ⊓ (∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.Action) ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.⊤) ⊓ (∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.(∃ pass_left.xsd:integer[≤ 5])) ⊓ (∃ has_action.(∃ goals_conceded_inside_box.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.(∃ through_ball.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.(∃ attempts_from_penalties_off_target.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts (∃ has_action.(∃ penalty_goals_shot.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ attempts_from_penalties_off_target.xsd:integer[≥ 0])) ⊓ (∃ has_action.(∃ shots_on_target_conceded.xsd:integer[≥ 1]))
+Count 1
+Length of Property: 12
+Concepts Player ⊓ (∃ has_action.(∃ shots_on_target_conceded_inside_box.xsd:integer[≥ 2]))
+Count 1
+Selected Props ['shots_on_target_conceded_inside_box', 'attempts_from_penalties_off_target', 'shots_on_target_conceded', 'has_action', 'penalty_goals_shot', 'goals_conceded_inside_box', 'penalties_off_target', 'goals_conceded', 'big_chances_faced', 'through_ball', 'big_chances', 'pass_left']
+str_target_concept lp_1
+F1 Score: 1.0
+Accuracy: 1.0
+selected feature: ['shots_on_target_conceded_inside_box', 'attempts_from_penalties_off_target', 'shots_on_target_conceded', 'has_action', 'penalty_goals_shot', 'goals_conceded_inside_box', 'penalties_off_target', 'goals_conceded', 'big_chances_faced', 'through_ball', 'big_chances', 'pass_left']
+Time Taken for FS: 97.16459274291992
+Time Taken for fit and predict: 32.655505657196045

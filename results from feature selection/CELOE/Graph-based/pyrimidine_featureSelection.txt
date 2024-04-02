@@ -1,0 +1,111 @@
+Length of Property: 11
+Concepts ((∃ p2_polar.xsd:double[≥ 0.34]) ⊔ (∃ p3_pi_acceptor.xsd:double[≥ 0.233])) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_pi_acceptor.xsd:double[≥ 0.1]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 11
+Concepts (∃ p2_pi_acceptor.xsd:double[≤ 0.5]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_size.xsd:double[≥ 0.26]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_size.xsd:double[≥ 0.26]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_size.xsd:double[≥ 0.26]) ⊓ (∃ p1_flex.xsd:double[≤ 0.35]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p1_size.xsd:double[≥ 0.26]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 11
+Concepts ⊤ ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_size.xsd:double[≥ 0.26]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_polarizable.xsd:double[≥ 0.233]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p1_sigma.xsd:double[≥ 0.18]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25])
+Count 1
+Length of Property: 11
+Concepts (∃ p1_size.xsd:double[≥ 0.26]) ⊓ (∃ p1_flex.xsd:double[≤ 0.25]) ⊓ (∃ p2_pi_acceptor.xsd:double[≤ 0.5]) ⊓ (∃ p1_pi_donor.xsd:double[≤ 0.7])
+Count 1
+Selected Props ['p3_pi_acceptor', 'p1_h_acceptor', 'p1_pi_acceptor', 'p1_pi_donor', 'p1_polar', 'p1_size', 'p1_sigma', 'p2_pi_acceptor', 'p1_polarizable', 'p1_flex', 'p2_polar']
+str_target_concept lp_1
+F1 Score: 0.8
+Accuracy: 0.75
+selected feature: ['p3_pi_acceptor', 'p1_h_acceptor', 'p1_pi_acceptor', 'p1_pi_donor', 'p1_polar', 'p1_size', 'p1_sigma', 'p2_pi_acceptor', 'p1_polarizable', 'p1_flex', 'p2_polar']
+Time Taken for FS: 0.599496603012085
+Time Taken for fit and predict: 600.0399551391602
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (((∃ p3_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p3_pi_acceptor.xsd:double[≥ 0.367])) ⊔ (∃ p2_size.xsd:double[≥ 0.18]))
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ (∃ p2_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.5]) ⊓ (∃ p2_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p2_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ ⊤ ⊓ (∃ p2_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_h_donor.xsd:double[≤ 0.5]) ⊓ (∃ p2_sigma.xsd:double[≥ 0.18]) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ ((∃ p3_sigma.xsd:double[≥ 0.233]) ⊔ (∃ p2_size.xsd:double[≥ 0.18]))
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p3_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p2_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_size.xsd:double[≥ 0.18]) ⊓ (∃ p3_h_donor.xsd:double[≤ 0.5]) ⊓ (∃ p2_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.5]) ⊓ (∃ p2_sigma.xsd:double[≥ 0.18]) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Selected Props ['p1_pi_donor', 'p3_sigma', 'p2_sigma', 'p2_size', 'p1_size', 'p3_pi_acceptor', 'p1_h_acceptor', 'p3_h_acceptor', 'p1_h_donor', 'p3_h_donor']
+str_target_concept lp_1
+F1 Score: 0.85714
+Accuracy: 0.875
+selected feature: ['p1_pi_donor', 'p3_sigma', 'p2_sigma', 'p2_size', 'p1_size', 'p3_pi_acceptor', 'p1_h_acceptor', 'p3_h_acceptor', 'p1_h_donor', 'p3_h_donor']
+Time Taken for FS: 0.7880284786224365
+Time Taken for fit and predict: 600.0390019416809
+Length of Property: 10
+Concepts (∃ p1_h_donor.xsd:double[≤ 0.1]) ⊓ ((∃ p3_pi_acceptor.xsd:double[≥ 0.367]) ⊔ (∃ p2_pi_donor.xsd:double[≥ 0.3])) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_h_donor.xsd:double[≤ 0.1]) ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ ((∃ p3_pi_acceptor.xsd:double[≥ 0.367]) ⊓ (∃ p3_h_acceptor.xsd:double[≤ 0.7]))) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ ((∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p3_pi_acceptor.xsd:double[≥ 0.367]) ⊓ (∃ p1_pi_acceptor.xsd:double[≥ 0.1]))) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts ⊤ ⊓ (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ ((∃ p3_sigma.xsd:double[≥ 0.233]) ⊓ (∃ p3_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p3_pi_acceptor.xsd:double[≥ 0.367]))) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p2_size.xsd:double[≥ 0.18]) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_h_donor.xsd:double[≤ 0.1]) ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ (∃ p2_pi_donor.xsd:double[≥ 0.3])) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts (∃ p1_pi_donor.xsd:double[≤ 0.7]) ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ (∃ p2_pi_donor.xsd:double[≥ 0.3])) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts ⊤ ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ ((∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p3_pi_acceptor.xsd:double[≥ 0.367]) ⊓ (∃ p1_pi_acceptor.xsd:double[≥ 0.1]))) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts ⊤ ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ ((∃ p3_sigma.xsd:double[≥ 0.233]) ⊓ (∃ p3_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p3_pi_acceptor.xsd:double[≥ 0.367]))) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Length of Property: 10
+Concepts ⊤ ⊓ ((∃ p2_size.xsd:double[≥ 0.18]) ⊔ ((∃ p1_h_acceptor.xsd:double[≤ 0.7]) ⊓ (∃ p3_pi_acceptor.xsd:double[≥ 0.233]) ⊓ (∃ p1_pi_acceptor.xsd:double[≥ 0.1]))) ⊓ (∃ p1_size.xsd:double[≥ 0.18])
+Count 1
+Selected Props ['p2_pi_donor', 'p1_h_donor', 'p3_sigma', 'p1_h_acceptor', 'p1_size', 'p3_h_acceptor', 'p3_pi_acceptor', 'p1_pi_donor', 'p1_pi_acceptor', 'p2_size']
+str_target_concept lp_1
+F1 Score: 0.66667
+Accuracy: 0.75
+selected feature: ['p2_pi_donor', 'p1_h_donor', 'p3_sigma', 'p1_h_acceptor', 'p1_size', 'p3_h_acceptor', 'p3_pi_acceptor', 'p1_pi_donor', 'p1_pi_acceptor', 'p2_size']
+Time Taken for FS: 0.7286529541015625
+Time Taken for fit and predict: 600.0403914451599
