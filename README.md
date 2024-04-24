@@ -1,27 +1,6 @@
 # AutoCL
 
-Node classification in knowledge graphs aids in the discovery
-of new drugs, the identification of risky users in social networks, and the
-completion of missing type information in knowledge graphs. A crucial re-
-quirement for many stakeholders is to understand the models’ predictions
-in these applications. To this end, concept learners have been proposed
-to learn concepts in description logic from positive and negative nodes in
-knowledge graphs in an interpretable way. However, learning concepts on
-large datasets is computationally expensive. Manually selecting impor-
-tant subgraphs and features to reduce runtime is tedious. While many
-feature selection approaches have been proposed to simplify the process
-for tabular data, they are not directly applicable to knowledge graphs
-and concept learning. In addition, current concept learners have a large
-number of hyperparameters that need to be optimized to achieve high
-predictive performance. In this paper, we propose AutoCL—an AutoML
-approach that is tailored to concept learning. AutoCL comprises meth-
-ods for automatic feature selection and hyperparameter optimization for
-concept learners. We demonstrate its effectiveness with SML-Bench, a
-benchmarking framework for structured machine learning. Our approach
-leads to better predictive performance across concept learners, in terms
-of F1-measure and Accuracy while reducing runtime on 6 of 8 datasets
-from SML-Bench
-
+Node classification in knowledge graphs aids in the discovery of new drugs, the identification of risky users in social networks, and the completion of missing type information in knowledge graphs. A crucial requirement for many stakeholders is to understand the models’ predictions in these applications. To this end, concept learners have been proposed to learn concepts in description logic from positive and negative nodes in knowledge graphs in an interpretable way. However, learning concepts on large datasets is computationally expensive. Manually selecting important subgraphs and features to reduce runtime is tedious. While many feature selection approaches have been proposed to simplify the process for tabular data, they are not directly applicable to knowledge graphs and concept learning. In addition, current concept learners have a large number of hyperparameters that need to be optimized to achieve high predictive performance. In this paper, we propose AutoCL—an AutoML approach that is tailored to concept learning. AutoCL comprises methods for automatic feature selection and hyperparameter optimization for concept learners. We demonstrate its effectiveness with SML-Bench, a benchmarking framework for structured machine learning. Our approach leads to better predictive performance across concept learners, in terms of F1-measure and Accuracy while reducing runtime on 6 of 8 datasets from SML-Bench.
 
 <img width="614" alt="onto" src="https://user-images.githubusercontent.com/123487952/215816088-242fbf1e-3cb8-4956-b65b-8bfa1c34868f.png">
 
