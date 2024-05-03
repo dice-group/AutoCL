@@ -12,7 +12,7 @@ Node classification in knowledge graphs aids in the discovery of new drugs, the 
 ### Installation AutoCL from source
 
 ```shell
-git clone https://github.com/AutoCL2023/AutoCL.git
+git clone https://github.com/dice-group/AutoCL
 cd AutoCL
 conda create --name temp python=3.8
 conda activate temp
