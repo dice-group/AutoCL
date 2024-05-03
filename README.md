@@ -30,13 +30,13 @@ Our Dataset from SML-Bench (Structured Machine Learning Benchmark) is a benchmar
 
 ### Hyperparameter Optimization(HPO)
 We proposed one approach for hyperparameter optimization of concept learners based one Covariance Matrix Adaptation Evolution Strategy(CMA-ES) sampler from Optuna framework.
-Our HPO source code shown in ``` hyperparameter optimization approach ``` from ``` AutoCL ```.
+Our HPO source code shown in ``` hyperparameter optimization approach ``` from ``` AutoCL ```folder.
 For each concept learner, We ran CMA-ES sampler via ``` get_best_optimization_result_for_cmes_sampler ``` function in order to obtain the best hyperparameters of our concepet learner.
 
 
 ### Feature Selection
 We provides methods for automatic feature selection in knowledge graphs.
-Our two Feature Selection appraoches source code shown in ``` table-based feature selection ``` and  ``` graph-based feature selection ```  from ``` AutoCL\feature selection approach ``` folder.
+Our two Feature Selection appraoches source code shown in ``` table-based feature selection ``` and  ``` graph-based feature selection ```  from ``` AutoCL\feature_selection ``` folder.
 
 Our first idea is to use a table-based wrapper method for feature selection: We employeed OwlReady2 to extra the features from KGs. Functions ```get_data_properties```, ```get_object_properties``` are used to get DatatypeProperty features and ObjectProperty features.Then ```transform_data_properties``` and ```transform_object_properties``` are used to covert the features into tabular format.
 Finaly, search the best features from ```select_k_best_features``` function based on chi square test scores.
