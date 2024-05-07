@@ -12,6 +12,24 @@ class BaseOptimizer:
         self.val_pos = val_pos
         self.val_neg = val_neg
         self.sampler = None  # Stores the chosen sampler
+        self._df = None
+
+    @property
+    def df(self):
+        """
+        Property to access and set the dataframe.
+        """
+        return self._df
+
+    @df.setter
+    def df(self, value):
+        """
+        Setter for the dataframe.
+
+        Args:
+            value (pandas.DataFrame): The DataFrame to set.
+        """
+        self._df = value
 
     def optimize(self, objective_func, n_trials, direction='maximize'):
         """
@@ -48,3 +66,13 @@ class BaseOptimizer:
         timestr = str(time.strftime("%Y%m%d-%H%M%S"))
         filename = f'{self.dataset}_Output_{trial if trial else ""}{timestr}'
         df.to_csv(filename + ".csv", index=False)
+
+    def get_best_hpo(self):
+        if self.df is None or len(self.df) == 0:
+            return None  # Return None if dataframe is empty or not set
+
+        best_hpo = self.df.loc[self.df['Validation_f1_Score'] == self.df['Validation_f1_Score'].max()]
+        if len(best_hpo.index) > 1:
+            best_hpo = best_hpo.loc[(best_hpo['Validation_accuracy'] == best_hpo['Validation_accuracy'].max()) &
+                                    (best_hpo['max_runtime'] == best_hpo['max_runtime'].min())]
+        return best_hpo

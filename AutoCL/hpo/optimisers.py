@@ -60,7 +60,7 @@ class EvolearnerOptimizer(BaseOptimizer):
         space['quality_score'] = quality
         space['Validation_f1_Score'] = f1_score[1]
         space['Validation_accuracy'] = accuracy[1]
-        self.save_df(**space)
+        self.__save_df(**space)
         return quality
 
     def objective_without_categorical_distribution(self, trial):
@@ -117,7 +117,7 @@ class EvolearnerOptimizer(BaseOptimizer):
         self.save_df(**space)
         return quality
 
-    def save_df(self, **space):
+    def __save_df(self, **space):
         self.df.loc[len(self.df.index)] = [self.concept,
                                            space['max_runtime'],
                                            space['tournament_size'],
@@ -134,9 +134,179 @@ class EvolearnerOptimizer(BaseOptimizer):
     def save_results(self, trial=None):
         super().save_results(self.df, trial)
 
-    def get_best_hpo(self):
-        best_hpo = self.df.loc[self.df['Validation_f1_Score'] == self.df['Validation_f1_Score'].max()]
-        if len(best_hpo.index) > 1:
-            best_hpo = best_hpo.loc[(best_hpo['Validation_accuracy'] == best_hpo['Validation_accuracy'].max()) &
-                                    (best_hpo['max_runtime'] == best_hpo['max_runtime'].min())]
-        return best_hpo
+
+
+class CeloeOptimizer(BaseOptimizer):
+    def __init__(self, dataset, kb, lp, concept, val_pos, val_neg):
+        super().__init__(dataset, kb, lp, concept, val_pos, val_neg)
+        self.df = pd.DataFrame(columns=['LP', 'max_runtime',
+                                        'max_num_of_concepts_tested', 'iter_bound',
+                                        'quality_func',
+                                        'quality_score', 'Validation_f1_Score',
+                                        'Validation_accuracy'])
+
+    def objective_with_categorical_distribution(self, trial):
+        max_runtime = trial.suggest_int("max_runtime", 1, 600)
+        max_num_of_concepts_tested = trial.suggest_int("max_num_of_concepts_tested", 2, 10_000_000_00)
+        iter_bound = trial.suggest_int('iter_bound', 2, 10_000_000_00)
+        quality_func = trial.suggest_categorical('quality_func', ['F1', 'Accuracy'])
+
+        wrap_obj = CeloeWrapper(knowledge_base=self.kb,
+                                max_runtime=max_runtime,
+                                max_num_of_concepts_tested=max_num_of_concepts_tested,
+                                iter_bound=iter_bound,
+                                quality_func=quality_func,
+                                )
+        model = wrap_obj.get_celoe_model()
+        model.fit(self.lp, verbose=False)
+        model.save_best_hypothesis(n=3, path=f'Predictions_{self.concept}')
+        hypotheses = list(model.best_hypotheses(n=1))
+        predictions = model.predict(individuals=list(self.val_pos | self.val_neg),
+                                    hypotheses=hypotheses)
+        f1_score, accuracy = calc_prediction(predictions, self.val_pos, self.val_neg)
+        quality = hypotheses[0].quality
+
+        space = dict()
+        space['max_runtime'] = max_runtime
+        space['max_num_of_concepts_tested'] = max_num_of_concepts_tested
+        space['iter_bound'] = iter_bound
+        space['quality_func'] = quality_func
+        space['quality_score'] = quality
+        space['Validation_f1_Score'] = f1_score[1]
+        space['Validation_accuracy'] = accuracy[1]
+        self.__save_df(**space)
+
+        return quality
+
+    def objective_without_categorical_distribution(self, trial):
+        max_runtime = trial.suggest_int("max_runtime", 2, 500)
+        max_num_of_concepts_tested = trial.suggest_int("max_num_of_concepts_tested", 2, 10_000_000_000)
+        iter_bound = trial.suggest_int('iter_bound', 3, 10_000_000_000)
+
+        quality_func = trial.suggest_int('quality_func', 1, 2)
+        quality_func = 'F1' if quality_func >= 2 else 'Accuracy'
+
+        wrap_obj = CeloeWrapper(knowledge_base=self.kb,
+                                max_runtime=max_runtime,
+                                max_num_of_concepts_tested=max_num_of_concepts_tested,
+                                iter_bound=iter_bound,
+                                quality_func=quality_func,
+                                )
+        model = wrap_obj.get_celoe_model()
+        model.fit(self.lp, verbose=False)
+        model.save_best_hypothesis(n=3, path=f'Predictions_{self.concept}')
+        hypotheses = list(model.best_hypotheses(n=1))
+        predictions = model.predict(individuals=list(self.val_pos | self.val_neg),
+                                    hypotheses=hypotheses)
+        f1_score, accuracy = calc_prediction(predictions, self.val_pos, self.val_neg)
+        quality = hypotheses[0].quality
+
+        space = dict()
+        space['max_runtime'] = max_runtime
+        space['max_num_of_concepts_tested'] = max_num_of_concepts_tested
+        space['iter_bound'] = iter_bound
+        space['quality_func'] = quality_func
+        space['quality_score'] = quality
+        space['Validation_f1_Score'] = f1_score[1]
+        space['Validation_accuracy'] = accuracy[1]
+        self.__save_df(**space)
+
+        return quality
+
+    def __save_df(self, **space):
+        self.df.loc[len(self.df.index)] = [self.concept, space['max_runtime'],
+                                           space['max_num_of_concepts_tested'], space['iter_bound'],
+                                           space['quality_func'],
+                                           space['quality_score'],
+                                           space['Validation_f1_Score'], space['Validation_accuracy']]
+
+    def save_results(self, trial=None):
+        super().save_results(self.df, trial)
+
+
+class OcelOptimizer(BaseOptimizer):
+    def __init__(self, dataset, kb, lp, concept, val_pos, val_neg):
+        super().__init__(dataset, kb, lp, concept, val_pos, val_neg)
+        self.df = pd.DataFrame(columns=['LP', 'max_runtime',
+                                        'max_num_of_concepts_tested', 'iter_bound',
+                                        'quality_func',
+                                        'quality_score', 'Validation_f1_Score',
+                                        'Validation_accuracy'])
+
+    def objective_with_categorical_distribution(self, trial):
+        max_runtime = trial.suggest_int("max_runtime", 1, 600)
+        max_num_of_concepts_tested = trial.suggest_int("max_num_of_concepts_tested", 2, 10_000_000_00)
+        iter_bound = trial.suggest_int('iter_bound', 2, 10_000_000_00)
+        quality_func = trial.suggest_categorical('quality_func', ['F1', 'Accuracy'])
+
+        wrap_obj = OcelWrapper(knowledge_base=self.kb,
+                                max_runtime=max_runtime,
+                                max_num_of_concepts_tested=max_num_of_concepts_tested,
+                                iter_bound=iter_bound,
+                                quality_func=quality_func,
+                                )
+        model = wrap_obj.get_ocel_model()
+        model.fit(self.lp, verbose=False)
+        model.save_best_hypothesis(n=3, path=f'Predictions_{self.concept}')
+        hypotheses = list(model.best_hypotheses(n=1))
+        predictions = model.predict(individuals=list(self.val_pos | self.val_neg),
+                                    hypotheses=hypotheses)
+        f1_score, accuracy = calc_prediction(predictions, self.val_pos, self.val_neg)
+        quality = hypotheses[0].quality
+
+        space = dict()
+        space['max_runtime'] = max_runtime
+        space['max_num_of_concepts_tested'] = max_num_of_concepts_tested
+        space['iter_bound'] = iter_bound
+        space['quality_func'] = quality_func
+        space['quality_score'] = quality
+        space['Validation_f1_Score'] = f1_score[1]
+        space['Validation_accuracy'] = accuracy[1]
+        self.__save_df(**space)
+
+        return quality
+
+    def objective_without_categorical_distribution(self, trial):
+        max_runtime = trial.suggest_int("max_runtime", 2, 500)
+        max_num_of_concepts_tested = trial.suggest_int("max_num_of_concepts_tested", 2, 10_000_000_000)
+        iter_bound = trial.suggest_int('iter_bound', 3, 10_000_000_000)
+
+        quality_func = trial.suggest_int('quality_func', 1, 2)
+        quality_func = 'F1' if quality_func >= 2 else 'Accuracy'
+
+        wrap_obj = OcelWrapper(knowledge_base=self.kb,
+                                max_runtime=max_runtime,
+                                max_num_of_concepts_tested=max_num_of_concepts_tested,
+                                iter_bound=iter_bound,
+                                quality_func=quality_func,
+                                )
+        model = wrap_obj.get_ocel_model()
+        model.fit(self.lp, verbose=False)
+        model.save_best_hypothesis(n=3, path=f'Predictions_{self.concept}')
+        hypotheses = list(model.best_hypotheses(n=1))
+        predictions = model.predict(individuals=list(self.val_pos | self.val_neg),
+                                    hypotheses=hypotheses)
+        f1_score, accuracy = calc_prediction(predictions, self.val_pos, self.val_neg)
+        quality = hypotheses[0].quality
+
+        space = dict()
+        space['max_runtime'] = max_runtime
+        space['max_num_of_concepts_tested'] = max_num_of_concepts_tested
+        space['iter_bound'] = iter_bound
+        space['quality_func'] = quality_func
+        space['quality_score'] = quality
+        space['Validation_f1_Score'] = f1_score[1]
+        space['Validation_accuracy'] = accuracy[1]
+        self.__save_df(**space)
+
+        return quality
+
+    def __save_df(self, **space):
+        self.df.loc[len(self.df.index)] = [self.concept, space['max_runtime'],
+                                           space['max_num_of_concepts_tested'], space['iter_bound'],
+                                           space['quality_func'],
+                                           space['quality_score'],
+                                           space['Validation_f1_Score'], space['Validation_accuracy']]
+
+    def save_results(self, trial=None):
+        super().save_results(self.df, trial)
