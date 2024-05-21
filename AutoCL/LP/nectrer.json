@@ -1,5 +1,5 @@
 {
-    "data_path": "AutoCL/KGs/Nctrer/nctrer.owl",
+    "data_path": "../../KGs/Nctrer/nctrer.owl",
     "problems": {
         "lp_1": {
         "positive_examples":
