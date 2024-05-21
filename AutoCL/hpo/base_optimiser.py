@@ -1,5 +1,8 @@
-import optuna
+import os
 import time
+from pathlib import Path
+
+import optuna
 
 
 class BaseOptimizer:
@@ -62,10 +65,27 @@ class BaseOptimizer:
             df (pandas.DataFrame): The DataFrame containing the optimization results.
             trial (int, optional): The trial number (if applicable). Defaults to None.
         """
+        # Get the directory of the current script
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the parent directory of the current script's directory
+        parent_dir = os.path.abspath(os.path.join(current_script_dir, os.pardir))
+
+        # Define the path to the results folder inside the parent directory
+        results_folder = os.path.join(parent_dir, "results")
+
+        # Ensure the results folder exists
+        if not os.path.exists(results_folder):
+            os.makedirs(results_folder)
 
         timestr = str(time.strftime("%Y%m%d-%H%M%S"))
-        filename = f'{self.dataset}_Output_{trial if trial else ""}{timestr}'
-        df.to_csv(filename + ".csv", index=False)
+        lp_name = Path(self.dataset).stem
+        filename = f'{lp_name}_Output_{trial if trial else ""}{timestr}'
+
+        # Define the full path for hpo
+        hpo_file_path = os.path.join(results_folder, filename)
+
+        df.to_csv(hpo_file_path + '.csv', index=False)
 
     def get_best_hpo(self):
         if self.df is None or len(self.df) == 0:

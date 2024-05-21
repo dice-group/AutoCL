@@ -138,5 +138,20 @@ class OntologyTransformer:
         return pd3
 
     def save_to_csv(self, dataframe, filename):
+        # Get the directory of the current script
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the parent directory of the current script's directory
+        parent_dir = os.path.abspath(os.path.join(current_script_dir, os.pardir))
+
+        # Define the path to the results folder inside the parent directory
+        results_folder = os.path.join(parent_dir, "results")
+
+        # Ensure the results folder exists
+        if not os.path.exists(results_folder):
+            os.makedirs(results_folder)
+
+        # Define the full path for transformed graph to tabular format
+        tf_file_path = os.path.join(results_folder, filename)
         if not dataframe.empty:
-            dataframe.to_csv(filename)
+            dataframe.to_csv(tf_file_path)

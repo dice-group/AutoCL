@@ -1,3 +1,4 @@
+import os
 from abc import ABC, abstractmethod
 from ontolearn.knowledge_base import KnowledgeBase
 from AutoCL.utils.ontology_acess import get_data_properties, get_object_properties
@@ -33,6 +34,12 @@ class FeatureSelectionStrategy(ABC):
         KnowledgeBase
             New knowledge base object with selected features.
         """
+        # Get the directory of the current script
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the parent directory of the current script's directory
+        parent_dir = os.path.abspath(os.path.join(current_script_dir, os.pardir))
+
         # Get object and data properties from the ontology
         prop_object = list(get_object_properties(self.onto)) + list(get_data_properties(self.onto))
 
@@ -41,8 +48,18 @@ class FeatureSelectionStrategy(ABC):
             if prop.name not in features:
                 destroy_entity(prop)
 
-        # Save the updated ontology with selected features
-        self.onto.save("kb_with_selected_features.owl")
+        # Define the path to the results folder inside the parent directory
+        results_folder = os.path.join(parent_dir, "results")
+
+        # Ensure the results folder exists
+        if not os.path.exists(results_folder):
+            os.makedirs(results_folder)
+
+        # Define the full path for the saved ontology file
+        ontology_file_path = os.path.join(results_folder, "kb_with_selected_features.owl")
+
+        # Save the updated ontology in the results folder inside the parent directory
+        self.onto.save(os.path.join(ontology_file_path))
 
         # Return the new knowledge base
-        return KnowledgeBase(path="./kb_with_selected_features.owl")
+        return KnowledgeBase(path=ontology_file_path)
