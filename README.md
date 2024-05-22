@@ -50,7 +50,7 @@ Our second idea is to use a graph-based wrapper method for feature selection: We
 ## How to Cite
 ```bibtex
 @inproceedings{XAI2024,
-  author = {Jiayi Li, Sheetal Satheesh, Stefan Heindorf, Diego Moussallem, René Speck and Axel-Cyrille Ngonga Ngomo}},
+  author = {Jiayi Li, Sheetal Satheesh, Stefan Heindorf, Diego Moussallem, René Speck and Axel-Cyrille Ngonga Ngomo},
   title = {AutoCL: AutoML for Concept Learning},
   year = 2024
 }
