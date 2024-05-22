@@ -45,6 +45,22 @@ Our second idea is to use a graph-based wrapper method for feature selection: We
 
 
 
+## How to Cite
+```bibtex
+@inproceedings{XAI2024,
+  author = {Jiayi Li, Sheetal Satheesh, Stefan Heindorf, Diego Moussallem, René Speck and Axel-Cyrille Ngonga Ngomo}},
+  title = {AutoCL: AutoML for Concept Learning},
+  year = 2024
+}
+
+```
+
+## Contact
+If you have any questions or feedbacks, feel free to contact us at jiayili@mail.uni-paderborn.de
+
+
+
+
 
 
 
