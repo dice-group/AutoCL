@@ -8,12 +8,7 @@ Node classification in knowledge graphs aids in the discovery of new drugs, the 
 - [Installation](#installation)
 
 # Installation
-Reproducibility Our three concept learners are implemented by the Ontolearn
-library in Python 3.8. For the FS, we use owlapy (0.41), owlready2 (0.41), Pandas
-(1.2.3), and the scikit-learn library (1.0.2) with its SelectKBest class. For HPO,
-we use the Optuna framework (3.0.3). Our experiments were run on a Linux-based
-virtual machine with 256 GB RAM and 64 CPUs. Our implementation is publicly
-available on GitHub at https://github.com/dice-group/AutoCL
+
 ### Installation AutoCL from source
 
 ```shell
