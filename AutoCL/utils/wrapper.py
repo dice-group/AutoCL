@@ -1,3 +1,5 @@
+import os
+
 from ontolearn.concept_learner import CELOE, OCEL
 from ontolearn.metrics import Accuracy, F1
 from ontolearn.abstracts import AbstractScorer, BaseRefinement, AbstractHeuristic, AbstractFitness
@@ -72,6 +74,44 @@ class CeloeWrapper:
                            self.calculate_min_max
                            )
         return model
+
+    @classmethod
+    def reinitialize_with_best_hpo(cls, best_hpo, new_kb):
+        if not best_hpo.empty:
+            return cls(
+                knowledge_base=new_kb,
+                max_runtime=int(best_hpo['max_runtime'].values[0]),
+                max_num_of_concepts_tested=int(best_hpo['max_num_of_concepts_tested'].values[0]),
+                iter_bound=int(best_hpo['iter_bound'].values[0]),
+                quality_func=str(best_hpo['quality_func'].values[0])
+            )
+
+    def execute(self, str_target_concept, lp, test_pos, test_neg):
+
+        model = self.get_celoe_model()
+        model.fit(lp)
+        # Get the directory of the current script
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the parent directory of the current script's directory
+        parent_dir = os.path.abspath(os.path.join(current_script_dir, os.pardir))
+
+        # Define the path to the results folder inside the parent directory
+        results_folder = os.path.join(parent_dir, "results")
+
+        # Ensure the results folder exists
+        if not os.path.exists(results_folder):
+            os.makedirs(results_folder)
+
+        model.save_best_hypothesis(n=3, path=results_folder + '/Prediction_' + str_target_concept)
+
+        # Get the best hypothesis
+        hypotheses = list(model.best_hypotheses(n=1))
+
+        # Make predictions on the test data
+        predictions = model.predict(individuals=list(test_pos | test_neg), hypotheses=hypotheses)
+
+        return predictions, hypotheses
 
 
 class EvoLearnerWrapper:
@@ -163,6 +203,47 @@ class EvoLearnerWrapper:
                                 self.height_limit)
         return model
 
+    @classmethod
+    def reinitialize_with_best_hpo(cls, best_hpo, new_kb):
+        if not best_hpo.empty:
+            return cls(
+                knowledge_base=new_kb,
+                max_runtime=int(best_hpo['max_runtime'].values[0]),
+                tournament_size=int(best_hpo['tournament_size'].values[0]),
+                height_limit=int(best_hpo['height_limit'].values[0]),
+                card_limit=int(best_hpo['card_limit'].values[0]),
+                use_data_properties=str(best_hpo['use_data_properties'].values[0]),
+                use_inverse=str(best_hpo['use_inverse_prop'].values[0]),
+                quality_func=str(best_hpo['quality_func'].values[0]),
+                value_splitter=str(best_hpo['value_splitter'].values[0])
+            )
+
+    def execute(self, str_target_concept, lp, test_pos, test_neg):
+        model = self.get_evolearner_model()
+        model.fit(lp)
+        # Get the directory of the current script
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the parent directory of the current script's directory
+        parent_dir = os.path.abspath(os.path.join(current_script_dir, os.pardir))
+
+        # Define the path to the results folder inside the parent directory
+        results_folder = os.path.join(parent_dir, "results")
+
+        # Ensure the results folder exists
+        if not os.path.exists(results_folder):
+            os.makedirs(results_folder)
+
+        model.save_best_hypothesis(n=3, path=results_folder + '/Prediction_' + str_target_concept)
+
+        # Get the best hypothesis
+        hypotheses = list(model.best_hypotheses(n=1))
+
+        # Make predictions on the test data
+        predictions = model.predict(individuals=list(test_pos | test_neg), hypotheses=hypotheses)
+
+        return predictions, hypotheses
+
 
 class OcelWrapper:
     def __init__(self,
@@ -212,3 +293,40 @@ class OcelWrapper:
                           self.calculate_min_max
                           )
         return model
+
+    @classmethod
+    def reinitialize_with_best_hpo(cls, best_hpo, new_kb):
+        if not best_hpo.empty:
+            return cls(
+                knowledge_base=new_kb,
+                max_runtime=int(best_hpo['max_runtime'].values[0]),
+                max_num_of_concepts_tested=int(best_hpo['max_num_of_concepts_tested'].values[0]),
+                iter_bound=int(best_hpo['iter_bound'].values[0]),
+                quality_func=str(best_hpo['quality_func'].values[0])
+            )
+
+    def execute(self, str_target_concept, lp, test_pos, test_neg):
+        model = self.get_ocel_model()
+        model.fit(lp)
+        # Get the directory of the current script
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get the parent directory of the current script's directory
+        parent_dir = os.path.abspath(os.path.join(current_script_dir, os.pardir))
+
+        # Define the path to the results folder inside the parent directory
+        results_folder = os.path.join(parent_dir, "results")
+
+        # Ensure the results folder exists
+        if not os.path.exists(results_folder):
+            os.makedirs(results_folder)
+
+        model.save_best_hypothesis(n=3, path=results_folder + '/Prediction_' + str_target_concept)
+
+        # Get the best hypothesis
+        hypotheses = list(model.best_hypotheses(n=1))
+
+        # Make predictions on the test data
+        predictions = model.predict(individuals=list(test_pos | test_neg), hypotheses=hypotheses)
+
+        return predictions, hypotheses
